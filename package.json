@@ -1,10 +1,15 @@
 {
-  "name": "javascript_books",
+  "name": "javascriptbooks",
   "version": "1.0.0",
-  "description": "Exercises to learn the concepts listed in books under the parent directory",
+  "description": "Tests to learn concepts in the Javascript books",
   "main": "index.js",
   "scripts": {
     "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -17,6 +22,8 @@
   },
   "homepage": "https://github.com/EricRicketts/JavascriptBooks#readme",
   "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.3.0",
     "eslint": "^6.8.0",
     "jest": "^25.3.0"
   }
