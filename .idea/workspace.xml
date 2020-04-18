@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1adp824SpPVzVOMNFDaDyAeBCy0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="determine_this.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/functions" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/functions/determine_this.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="determine_this.test.js" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/functions/determine_this.test.js" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.determine_this.test.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="" />
+      <created>1587075161854</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587075161854</updated>
+      <workItem from="1587075166152" duration="135000" />
+      <workItem from="1587120708046" duration="242000" />
+      <workItem from="1587200947397" duration="1217000" />
+      <workItem from="1587207234492" duration="1373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1038" y="414" key="#All_Tests" timestamp="1587207296431">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1038" y="414" key="#All_Tests/0.0.2560.1440@0.0.2560.1440" timestamp="1587207296431" />
+    <state x="1038" y="391" key="#Rules_for_determining_this.should_" timestamp="1587207058105">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1038" y="391" key="#Rules_for_determining_this.should_/0.0.2560.1440@0.0.2560.1440" timestamp="1587207058105" />
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587210461851">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1587210461851" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1587207215810">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587207215810" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1587207215809">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587207215809" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1587207215808">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587207215808" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1587207215809">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587207215809" />
+  </component>
+</project>

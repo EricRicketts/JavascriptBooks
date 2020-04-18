@@ -1,0 +1,23 @@
+{
+  "name": "javascript_books",
+  "version": "1.0.0",
+  "description": "Exercises to learn the concepts listed in books under the parent directory",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricRicketts/JavascriptBooks.git"
+  },
+  "author": "Eric Ricketts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricRicketts/JavascriptBooks/issues"
+  },
+  "homepage": "https://github.com/EricRicketts/JavascriptBooks#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "jest": "^25.3.0"
+  }
+}
