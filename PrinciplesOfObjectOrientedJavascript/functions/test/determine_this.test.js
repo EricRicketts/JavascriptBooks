@@ -1,7 +1,6 @@
 import { sayNameForAllWithLabel } from "../code/say_name";
-
 describe('Determine this from context', function () {
-  let sayNameForAll, person1, person2;
+  let sayNameForAll, person1, person2, foo, bar;
   beforeEach(() => {
     sayNameForAll = function() {
       return this === undefined ? undefined : this.name;
@@ -14,6 +13,21 @@ describe('Determine this from context', function () {
       name: 'Greg',
       sayName: sayNameForAll
     }
+    foo = function() {
+      return this;
+    }
+    globalThis.a = 'Global';
+    bar = function() {
+      return globalThis.a;
+    }
+  });
+
+  it('should identify "this" in global context, which is undefined in strict mode', function () {
+    expect(foo()).toBe(undefined);
+  });
+
+  it('should return properties assigned to the global object', function () {
+    expect(bar()).toBe('Global');
   });
 
   it('should give the name of the person1 object', function () {
@@ -44,5 +58,20 @@ describe('Determine this from context', function () {
   it('should bind to object person2', function () {
     let sayNameOfPersonTWo = sayNameForAllWithLabel.bind(person2, "person2");
     expect(sayNameOfPersonTWo()).toBe('person2:Greg');
+  });
+
+  it('should bind only once', function () {
+    function f() {
+      return this.a;
+    }
+    /*
+    We see here that g is permanently bound to the object { a: 'azerty' }
+    so when h attempts to bind to { a: 'yoo' } it does not bind to the
+    passed in object because g is permanently bound to { a: 'azerty' }
+     */
+    var g = f.bind({ a: 'azerty' }); // returns an object permanently bound to
+    var h = g.bind({ a: 'yoo' })
+    expect(g()).toBe('azerty');
+    expect(h()).toBe('azerty');
   });
 });

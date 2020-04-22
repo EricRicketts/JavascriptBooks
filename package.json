@@ -1,7 +1,7 @@
 {
   "name": "javascriptbooks",
   "version": "1.0.0",
-  "description": "Tests to learn concepts in the Javascript books",
+  "description": "Coding exercises to learn the concepts presented in the books.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -23,8 +23,8 @@
   "homepage": "https://github.com/EricRicketts/JavascriptBooks#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.9.5",
-    "babel-jest": "^25.3.0",
-    "eslint": "^6.8.0",
-    "jest": "^25.3.0"
+    "babel-jest": "^25.4.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^25.4.0"
   }
 }
