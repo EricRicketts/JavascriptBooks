@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/code/say_name.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/test/determine_this.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +44,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.Principles of Object Oriented Javascript Detecting Properties.hasOwnProperty only looks for unique properties on that object">
+  <component name="RunManager" selected="Jest.Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -57,31 +54,31 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Principles Of Object Oriented Javascript.person2 is not a copy of person1 it is an entirely different object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Principles Of Object Oriented Javascript Deleting Properties.setting property to null does not remove property" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/define_properties.test.js" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/deleting_properties.test.js" />
       <test-names>
-        <test-name value="Principles Of Object Oriented Javascript" />
-        <test-name value="person2 is not a copy of person1 it is an entirely different object" />
+        <test-name value="Principles Of Object Oriented Javascript Deleting Properties" />
+        <test-name value="setting property to null does not remove property" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Principles Of Object Oriented Javascript.person3 is a copy of person1, changes in person1 should show up in person3" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/define_properties.test.js" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/deleting_properties.test.js" />
       <test-names>
-        <test-name value="Principles Of Object Oriented Javascript" />
-        <test-name value="person3 is a copy of person1, changes in person1 should show up in person3" />
+        <test-name value="Principles Of Object Oriented Javascript Deleting Properties" />
+        <test-name value="to remove a property use the delete operator" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -140,19 +137,19 @@
     <list>
       <item itemvalue="Jest.determine_this.test.js" />
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Principles Of Object Oriented Javascript.person3 is a copy of person1, changes in person1 should show up in person3" />
-      <item itemvalue="Jest.Principles Of Object Oriented Javascript.person2 is not a copy of person1 it is an entirely different object" />
       <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.Insecure way to detect properties leads to undesired falsy values" />
       <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.correct way to find any property on an object is with in" />
       <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.hasOwnProperty only looks for unique properties on that object" />
+      <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.setting property to null does not remove property" />
+      <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator" />
+        <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.setting property to null does not remove property" />
         <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.hasOwnProperty only looks for unique properties on that object" />
         <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.correct way to find any property on an object is with in" />
         <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.Insecure way to detect properties leads to undesired falsy values" />
-        <item itemvalue="Jest.Principles Of Object Oriented Javascript.person2 is not a copy of person1 it is an entirely different object" />
-        <item itemvalue="Jest.Principles Of Object Oriented Javascript.person3 is a copy of person1, changes in person1 should show up in person3" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +169,7 @@
       <workItem from="1587207234492" duration="1373000" />
       <workItem from="1587236509324" duration="562000" />
       <workItem from="1587490051462" duration="1784000" />
-      <workItem from="1587507544343" duration="6135000" />
+      <workItem from="1587507544343" duration="6775000" />
     </task>
     <servers />
   </component>
@@ -201,26 +198,26 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1587568386837">
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1587569265315">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587237098248" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587568386837" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1587568386836">
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265315" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1587569265313">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587237098247" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587568386836" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1587568386832">
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265313" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1587569265311">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587237098246" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587568386832" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1587568386836">
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265311" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1587569265314">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587237098247" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587568386836" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265314" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1587548672785">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
