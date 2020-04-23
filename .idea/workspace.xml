@@ -44,7 +44,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator">
+  <component name="RunManager" selected="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Freezing.should only allows for reading of properties">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,73 +54,63 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Principles Of Object Oriented Javascript Deleting Properties.setting property to null does not remove property" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Freezing.should only allows for reading of properties" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/deleting_properties.test.js" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/property_attributes.test.js" />
       <test-names>
-        <test-name value="Principles Of Object Oriented Javascript Deleting Properties" />
-        <test-name value="setting property to null does not remove property" />
+        <test-name value="Principles Of Object Oriented Javascript Understanding Objects Property Attributes" />
+        <test-name value="Object Freezing" />
+        <test-name value="should only allows for reading of properties" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.does allow for reading and writing of the object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/deleting_properties.test.js" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/property_attributes.test.js" />
       <test-names>
-        <test-name value="Principles Of Object Oriented Javascript Deleting Properties" />
-        <test-name value="to remove a property use the delete operator" />
+        <test-name value="Principles Of Object Oriented Javascript Understanding Objects Property Attributes" />
+        <test-name value="Object Sealing" />
+        <test-name value="does allow for reading and writing of the object" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Principles of Object Oriented Javascript Detecting Properties.Insecure way to detect properties leads to undesired falsy values" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.should be non extensible and properties cannot be removed or have their type changed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/detecting_properties.test.js" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/property_attributes.test.js" />
       <test-names>
-        <test-name value="Principles of Object Oriented Javascript Detecting Properties" />
-        <test-name value="Insecure way to detect properties leads to undesired falsy values" />
+        <test-name value="Principles Of Object Oriented Javascript Understanding Objects Property Attributes" />
+        <test-name value="Object Sealing" />
+        <test-name value="should be non extensible and properties cannot be removed or have their type changed" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Principles of Object Oriented Javascript Detecting Properties.correct way to find any property on an object is with in" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.should be non extensible and properties cannot be removed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/detecting_properties.test.js" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/property_attributes.test.js" />
       <test-names>
-        <test-name value="Principles of Object Oriented Javascript Detecting Properties" />
-        <test-name value="correct way to find any property on an object is with in" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Principles of Object Oriented Javascript Detecting Properties.hasOwnProperty only looks for unique properties on that object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/detecting_properties.test.js" />
-      <test-names>
-        <test-name value="Principles of Object Oriented Javascript Detecting Properties" />
-        <test-name value="hasOwnProperty only looks for unique properties on that object" />
+        <test-name value="Principles Of Object Oriented Javascript Understanding Objects Property Attributes" />
+        <test-name value="Object Sealing" />
+        <test-name value="should be non extensible and properties cannot be removed" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -134,22 +124,32 @@
       <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/functions/determine_this.test.js" />
       <method v="2" />
     </configuration>
+    <configuration name="property_attributes.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript/understanding_objects/test/property_attributes.test.js" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.determine_this.test.js" />
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.Insecure way to detect properties leads to undesired falsy values" />
-      <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.correct way to find any property on an object is with in" />
-      <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.hasOwnProperty only looks for unique properties on that object" />
-      <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.setting property to null does not remove property" />
-      <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator" />
+      <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.should be non extensible and properties cannot be removed or have their type changed" />
+      <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.should be non extensible and properties cannot be removed" />
+      <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.does allow for reading and writing of the object" />
+      <item itemvalue="Jest.property_attributes.test.js" />
+      <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Freezing.should only allows for reading of properties" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.to remove a property use the delete operator" />
-        <item itemvalue="Jest.Principles Of Object Oriented Javascript Deleting Properties.setting property to null does not remove property" />
-        <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.hasOwnProperty only looks for unique properties on that object" />
-        <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.correct way to find any property on an object is with in" />
-        <item itemvalue="Jest.Principles of Object Oriented Javascript Detecting Properties.Insecure way to detect properties leads to undesired falsy values" />
+        <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Freezing.should only allows for reading of properties" />
+        <item itemvalue="Jest.property_attributes.test.js" />
+        <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.does allow for reading and writing of the object" />
+        <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.should be non extensible and properties cannot be removed" />
+        <item itemvalue="Jest.Principles Of Object Oriented Javascript Understanding Objects Property Attributes.Object Sealing.should be non extensible and properties cannot be removed or have their type changed" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +169,8 @@
       <workItem from="1587207234492" duration="1373000" />
       <workItem from="1587236509324" duration="562000" />
       <workItem from="1587490051462" duration="1784000" />
-      <workItem from="1587507544343" duration="6775000" />
+      <workItem from="1587507544343" duration="7322000" />
+      <workItem from="1587654386973" duration="3908000" />
     </task>
     <servers />
   </component>
@@ -198,73 +199,89 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1587569265315">
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1587662393398">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587237098248" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265315" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1587569265313">
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587662393398" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295643" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1587662393396">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587237098247" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265313" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1587569265311">
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587662393396" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295642" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1587662393395">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587237098246" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265311" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1587569265314">
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587662393395" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295641" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1587662393397">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587237098247" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587569265314" />
-    <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1587548672785">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587662393397" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295642" />
+    <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1587588295619">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672785" />
-    <state width="2539" height="514" key="GridCell.Tab.1.center" timestamp="1587548672784">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
+    <state width="2539" height="514" key="GridCell.Tab.1.center" timestamp="1587588295618">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672784" />
-    <state width="2539" height="514" key="GridCell.Tab.1.left" timestamp="1587548672783">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
+    <state width="2539" height="514" key="GridCell.Tab.1.left" timestamp="1587588295617">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672783" />
-    <state width="2539" height="514" key="GridCell.Tab.1.right" timestamp="1587548672784">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295617" />
+    <state width="2539" height="514" key="GridCell.Tab.1.right" timestamp="1587588295618">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672784" />
-    <state width="2539" height="514" key="GridCell.Tab.2.bottom" timestamp="1587548672787">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
+    <state width="2539" height="514" key="GridCell.Tab.2.bottom" timestamp="1587588295620">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672787" />
-    <state width="2539" height="514" key="GridCell.Tab.2.center" timestamp="1587548672786">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
+    <state width="2539" height="514" key="GridCell.Tab.2.center" timestamp="1587588295619">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672786" />
-    <state width="2539" height="514" key="GridCell.Tab.2.left" timestamp="1587548672786">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.2.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
+    <state width="2539" height="514" key="GridCell.Tab.2.left" timestamp="1587588295619">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672786" />
-    <state width="2539" height="514" key="GridCell.Tab.2.right" timestamp="1587548672787">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.2.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
+    <state width="2539" height="514" key="GridCell.Tab.2.right" timestamp="1587588295620">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672787" />
-    <state width="2539" height="514" key="GridCell.Tab.3.bottom" timestamp="1587548672789">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.2.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
+    <state width="2539" height="514" key="GridCell.Tab.3.bottom" timestamp="1587588295621">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672789" />
-    <state width="2539" height="514" key="GridCell.Tab.3.center" timestamp="1587548672788">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
+    <state width="2539" height="514" key="GridCell.Tab.3.center" timestamp="1587588295621">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672788" />
-    <state width="2539" height="514" key="GridCell.Tab.3.left" timestamp="1587548672788">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.3.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
+    <state width="2539" height="514" key="GridCell.Tab.3.left" timestamp="1587588295620">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672788" />
-    <state width="2539" height="514" key="GridCell.Tab.3.right" timestamp="1587548672789">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="2539" height="514" key="GridCell.Tab.3.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
+    <state width="2539" height="514" key="GridCell.Tab.3.right" timestamp="1587588295621">
+      <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1587548672789" />
+    <state width="2539" height="514" key="GridCell.Tab.3.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
   </component>
 </project>
