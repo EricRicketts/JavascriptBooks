@@ -32,6 +32,18 @@ describe('Principles Of Object Oriented Javascript Prototype Property', function
       }
       expect(inherited.includes('name')).toBe(false);
     });
+
+    it('for literal objects hasOwnPropertyNames only returns "own" properties', function () {
+      let animalProperties = Object.getOwnPropertyNames(animal);
+      expected = ['eats', 'name', 'walk'];
+      expect(animalProperties.sort()).toEqual(expected);
+    });
+
+    it('the prototype property is hidden but can be directly accessed by __proto__', function () {
+      let animalProperties = Object.getOwnPropertyNames(animal);
+      expect(animalProperties.includes('__proto__')).toBe(false);
+      expect(animalPrototype).toEqual(animal.__proto__);
+    });
   });
 
   describe('Prototype is an object and there is only one value for a prototype', function () {
@@ -39,31 +51,32 @@ describe('Principles Of Object Oriented Javascript Prototype Property', function
       expect(typeof longEarPrototype).toBe('object');
     });
 
-    it('all object literal constructors point to Object', function () {
+    it('if the prototype property is inherited it will point to the immediate parent object', function () {
+      expect(longEarPrototype).toEqual(rabbit);
+      expect(rabbitPrototype).toEqual(animal);
+      expect(longEarPrototype).not.toEqual(animal);
+    });
+
+    it('all literal object constructors are functions', function () {
       results = [
-        longEarPrototype.constructor.name, rabbitPrototype.constructor.name,
-        animalPrototype.constructor.name
+        typeof  longEarPrototype.constructor, typeof  rabbitPrototype.constructor,
+        typeof  animalPrototype.constructor
       ];
-      expected = ['Object', 'Object', 'Object'];
+      expected = ['function', 'function', 'function'];
       expect(results).toEqual(expected);
     });
 
-    it('work up the prototype chain', function () {
+    it('calling a literal object constructor will return an empty object', function () {
+      expect(animalPrototype.constructor()).toEqual({});
+    });
+
+    it('object inheritance allows one to work up the prototype chain', function () {
       let objectPrototype = Object.getPrototypeOf(Object);
       results = [
         longEarPrototype.name, rabbitPrototype.name,
         animalPrototype.constructor.name, objectPrototype.constructor.name
       ];
       expect(results).toEqual(['rabbit', 'animal', 'Object', 'Function']);
-    });
-
-    it('constructor of all literal objects are Object', function () {
-      results = [
-        longEarPrototype.constructor.name, rabbitPrototype.constructor.name,
-        animalPrototype.constructor.name,
-      ];
-      expected = ['Object', 'Object', 'Object'];
-      expect(results).toEqual(expected);
     });
 
     it('For literal objects "prototype" is just another key, it has no effect on inheritance', function () {
@@ -75,6 +88,7 @@ describe('Principles Of Object Oriented Javascript Prototype Property', function
       expect(foo.prototype).toEqual(rabbit);
       foo.prototype = 'fizzbuzz';
       expect(foo.prototype).toBe('fizzbuzz');
+      expect(typeof foo.prototype).toBe('string');
     });
   });
 });
