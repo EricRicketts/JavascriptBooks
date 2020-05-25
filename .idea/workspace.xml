@@ -44,7 +44,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scoped variables shadow variables in outer scope">
+  <component name="RunManager" selected="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,91 +54,96 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript: Scopes and Closures: Lexical Scope" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/lexical_scope.test.js" />
-      <test-names>
-        <test-name value="You Don't Know Javascript: Scopes and Closures: Lexical Scope" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scope has access to variables in outer scope" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a bar module which can be invoked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/lexical_scope.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript: Scopes and Closures: Lexical Scope" />
-        <test-name value="inner scope has access to variables in outer scope" />
+        <test-name value="You Don't Know Javascript: Scopes and Closures" />
+        <test-name value="Module Pattern" />
+        <test-name value="should return a bar module which can be invoked" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scoped variables shadow variables in outer scope" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/lexical_scope.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript: Scopes and Closures: Lexical Scope" />
-        <test-name value="inner scoped variables shadow variables in outer scope" />
+        <test-name value="You Don't Know Javascript: Scopes and Closures" />
+        <test-name value="Module Pattern" />
+        <test-name value="should return a foo module which can be invoked" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript: Scopes and Closures: Lexical Scope.should return variables from three different scopes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript: Scopes and Closures.Modules.Revealing module pattern, returns object which have functions with closure" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/lexical_scope.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript: Scopes and Closures: Lexical Scope" />
-        <test-name value="should return variables from three different scopes" />
+        <test-name value="You Don't Know Javascript: Scopes and Closures" />
+        <test-name value="Modules" />
+        <test-name value="Revealing module pattern, returns object which have functions with closure" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Dont't Know Javascript: Up and Going: Values And Types.Function Basics.Javascript has immediately invoked function expressions, IIFE" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript: Scopes and Closures.Modules.use the module pattern for a public API" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/up_and_going/test/values_and_types.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
       <test-names>
-        <test-name value="You Dont't Know Javascript: Up and Going: Values And Types" />
-        <test-name value="Function Basics" />
-        <test-name value="Javascript has immediately invoked function expressions, IIFE" />
+        <test-name value="You Don't Know Javascript: Scopes and Closures" />
+        <test-name value="Modules" />
+        <test-name value="use the module pattern for a public API" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="You Don't Know Javascript: Scopes and Closures.Scope Closure.IIFE according to the accepted definition is not strictly a closure" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
+      <test-names>
+        <test-name value="You Don't Know Javascript: Scopes and Closures" />
+        <test-name value="Scope Closure" />
+        <test-name value="IIFE according to the accepted definition is not strictly a closure" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.You Dont't Know Javascript: Up and Going: Values And Types.Function Basics.Javascript has immediately invoked function expressions, IIFE" />
-      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.should return variables from three different scopes" />
-      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scope has access to variables in outer scope" />
-      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope" />
-      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scoped variables shadow variables in outer scope" />
+      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Scope Closure.IIFE according to the accepted definition is not strictly a closure" />
+      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Modules.Revealing module pattern, returns object which have functions with closure" />
+      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Modules.use the module pattern for a public API" />
+      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a bar module which can be invoked" />
+      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scoped variables shadow variables in outer scope" />
-        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope" />
-        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.inner scope has access to variables in outer scope" />
-        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures: Lexical Scope.should return variables from three different scopes" />
-        <item itemvalue="Jest.You Dont't Know Javascript: Up and Going: Values And Types.Function Basics.Javascript has immediately invoked function expressions, IIFE" />
+        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked" />
+        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a bar module which can be invoked" />
+        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Modules.use the module pattern for a public API" />
+        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Modules.Revealing module pattern, returns object which have functions with closure" />
+        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Scope Closure.IIFE according to the accepted definition is not strictly a closure" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +179,13 @@
       <workItem from="1588436849867" duration="103000" />
       <workItem from="1588451571114" duration="3000" />
       <workItem from="1588465221878" duration="62000" />
-      <workItem from="1588465316974" duration="878000" />
+      <workItem from="1588465316974" duration="1759000" />
+      <workItem from="1588541525516" duration="3000" />
+      <workItem from="1588541544976" duration="1768000" />
+      <workItem from="1588947705849" duration="194000" />
+      <workItem from="1589030697577" duration="1174000" />
+      <workItem from="1589187819339" duration="3819000" />
+      <workItem from="1590433405079" duration="2116000" />
     </task>
     <servers />
   </component>
@@ -213,105 +224,117 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1588466435195">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1590439547779">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1588466435195" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588374880563" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590439547779" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335790" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1588466435194">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1590439547778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1588466435194" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588374880563" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590439547778" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335789" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1588466435193">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1590439547777">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1588466435193" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588374880562" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590439547777" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335789" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1588466435194">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1590439547778">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1588466435194" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588374880563" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590439547778" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335790" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1588188439886">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1590439543871">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587944985579" />
+    <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590439543871" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439886" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="2539" height="514" key="GridCell.Tab.1.center" timestamp="1588188439885">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.1.center" timestamp="1590439543870">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1587944985578" />
+    <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1590439543870" />
     <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439885" />
     <state width="2539" height="514" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
-    <state width="2539" height="514" key="GridCell.Tab.1.left" timestamp="1588188439885">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.1.left" timestamp="1590439543869">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1587944985577" />
+    <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1590439543869" />
     <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439885" />
     <state width="2539" height="514" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295617" />
-    <state width="2539" height="514" key="GridCell.Tab.1.right" timestamp="1588188439886">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.1.right" timestamp="1590439543870">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1587944985579" />
+    <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1590439543870" />
     <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439886" />
     <state width="2539" height="514" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
-    <state width="2539" height="514" key="GridCell.Tab.2.bottom" timestamp="1588188439888">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.2.bottom" timestamp="1590439543873">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587944985581" />
+    <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590439543873" />
     <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439888" />
     <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="2539" height="514" key="GridCell.Tab.2.center" timestamp="1588188439887">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.2.center" timestamp="1590439543872">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1587944985580" />
+    <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1590439543872" />
     <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439887" />
     <state width="2539" height="514" key="GridCell.Tab.2.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="2539" height="514" key="GridCell.Tab.2.left" timestamp="1588188439887">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.2.left" timestamp="1590439543871">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1587944985580" />
+    <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1590439543871" />
     <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439887" />
     <state width="2539" height="514" key="GridCell.Tab.2.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="2539" height="514" key="GridCell.Tab.2.right" timestamp="1588188439888">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.2.right" timestamp="1590439543872">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1587944985581" />
+    <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1590439543872" />
     <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439888" />
     <state width="2539" height="514" key="GridCell.Tab.2.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="2539" height="514" key="GridCell.Tab.3.bottom" timestamp="1588188439890">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.3.bottom" timestamp="1590439543875">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587944985583" />
+    <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590439543875" />
     <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439890" />
     <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state width="2539" height="514" key="GridCell.Tab.3.center" timestamp="1588188439889">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.3.center" timestamp="1590439543874">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1587944985582" />
+    <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1590439543874" />
     <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439889" />
     <state width="2539" height="514" key="GridCell.Tab.3.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state width="2539" height="514" key="GridCell.Tab.3.left" timestamp="1588188439888">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.3.left" timestamp="1590439543873">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1587944985582" />
+    <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1590439543873" />
     <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439888" />
     <state width="2539" height="514" key="GridCell.Tab.3.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="2539" height="514" key="GridCell.Tab.3.right" timestamp="1588188439889">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="298" key="GridCell.Tab.3.right" timestamp="1590439543874">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1587944985583" />
+    <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1590439543874" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1588188439889" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state x="945" y="331" key="search.everywhere.popup" timestamp="1587672648879">
+    <state x="945" y="331" key="search.everywhere.popup" timestamp="1589189772861">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state x="945" y="331" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1587672648879" />
+    <state x="945" y="331" key="search.everywhere.popup/0.0.2560.1440@0.0.2560.1440" timestamp="1589189772861" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js</url>
+          <line>53</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
