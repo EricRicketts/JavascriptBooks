@@ -44,7 +44,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance secondFoo count">
+  <component name="RunManager" selected="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,95 +54,100 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_one_this_or_that.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_two_this_all_makes_sense_now.test.js" />
       <test-names>
         <test-name value="You Don't Know Javascript this and Object Prototypes" />
-        <test-name value="Chapter One: this or that?" />
+        <test-name value="Chapter Two: this All Makes Sense Now" />
+        <test-name value="Explicit and New Bindings" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance firstFoo count" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.apply uses an array for arguments" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_one_this_or_that.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_two_this_all_makes_sense_now.test.js" />
       <test-names>
         <test-name value="You Don't Know Javascript this and Object Prototypes" />
-        <test-name value="Chapter One: this or that?" />
-        <test-name value="should advance firstFoo count" />
+        <test-name value="Chapter Two: this All Makes Sense Now" />
+        <test-name value="Explicit and New Bindings" />
+        <test-name value="apply uses an array for arguments" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance secondFoo count" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.bind permanently ties binds a function to an object, it returns a function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_one_this_or_that.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_two_this_all_makes_sense_now.test.js" />
       <test-names>
         <test-name value="You Don't Know Javascript this and Object Prototypes" />
-        <test-name value="Chapter One: this or that?" />
-        <test-name value="should advance secondFoo count" />
+        <test-name value="Chapter Two: this All Makes Sense Now" />
+        <test-name value="Explicit and New Bindings" />
+        <test-name value="bind permanently ties binds a function to an object, it returns a function" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a bar module which can be invoked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.call uses comma separated arguments" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_two_this_all_makes_sense_now.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript: Scopes and Closures" />
-        <test-name value="Module Pattern" />
-        <test-name value="should return a bar module which can be invoked" />
+        <test-name value="You Don't Know Javascript this and Object Prototypes" />
+        <test-name value="Chapter Two: this All Makes Sense Now" />
+        <test-name value="Explicit and New Bindings" />
+        <test-name value="call uses comma separated arguments" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.new binding sets the return object as the binding for the function call" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/test/scope_closure.test.js" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_two_this_all_makes_sense_now.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript: Scopes and Closures" />
-        <test-name value="Module Pattern" />
-        <test-name value="should return a foo module which can be invoked" />
+        <test-name value="You Don't Know Javascript this and Object Prototypes" />
+        <test-name value="Chapter Two: this All Makes Sense Now" />
+        <test-name value="Explicit and New Bindings" />
+        <test-name value="new binding sets the return object as the binding for the function call" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a bar module which can be invoked" />
-      <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked" />
-      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance firstFoo count" />
-      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?" />
-      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance secondFoo count" />
+      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.call uses comma separated arguments" />
+      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.apply uses an array for arguments" />
+      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.bind permanently ties binds a function to an object, it returns a function" />
+      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.new binding sets the return object as the binding for the function call" />
+      <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance secondFoo count" />
-        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?" />
-        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter One: this or that?.should advance firstFoo count" />
-        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a foo module which can be invoked" />
-        <item itemvalue="Jest.You Don't Know Javascript: Scopes and Closures.Module Pattern.should return a bar module which can be invoked" />
+        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings" />
+        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.new binding sets the return object as the binding for the function call" />
+        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.bind permanently ties binds a function to an object, it returns a function" />
+        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.apply uses an array for arguments" />
+        <item itemvalue="Jest.You Don't Know Javascript this and Object Prototypes.Chapter Two: this All Makes Sense Now.Explicit and New Bindings.call uses comma separated arguments" />
       </list>
     </recent_temporary>
   </component>
@@ -186,6 +191,8 @@
       <workItem from="1589187819339" duration="3819000" />
       <workItem from="1590433405079" duration="3047000" />
       <workItem from="1590483253611" duration="14000" />
+      <workItem from="1590483293354" duration="3164000" />
+      <workItem from="1590526093894" duration="2242000" />
     </task>
     <servers />
   </component>
@@ -224,29 +231,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1590451510679">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1590528658892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590451510679" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335790" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1590528658892" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590501477993" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1590451510678">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1590528658891">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590451510678" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335789" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1590528658891" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590501477992" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1590451510677">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1590528658890">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590451510677" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335789" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1590528658890" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590501477991" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1590451510678">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1590528658892">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590451510678" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1589196335790" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1590528658892" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590501477992" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1590439543871">
       <screen x="0" y="0" width="1440" height="900" />
