@@ -44,7 +44,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.You Don't Know Javascript.Chapter 3: Objects.Immutability.one cannot add properties to an extension prevented object">
+  <component name="RunManager" selected="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,32 +54,66 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_three_objects.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript" />
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Section Four: Modules, Exports, and Requires" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Immutability.one can make a constant property with a combination of writable and configurable" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_three_objects.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="Chapter 3: Objects" />
-        <test-name value="Immutability" />
-        <test-name value="one can make a constant property with a combination of writable and configurable" />
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Section Four: Modules, Exports, and Requires" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
+        <test-name value="As first class citizens functions can be used as arguments to other functions" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" />
+      <test-names>
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Section Four: Modules, Exports, and Requires" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
+        <test-name value="function expressions can be used as arguments to a function" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can create variables which reference functions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" />
+      <test-names>
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Section Four: Modules, Exports, and Requires" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
+        <test-name value="function expressions can create variables which reference functions" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -99,53 +133,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Property Descriptors.non-configurable property can change value but cannot change via defineProperty" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_three_objects.test.js" />
-      <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="Chapter 3: Objects" />
-        <test-name value="Property Descriptors" />
-        <test-name value="non-configurable property can change value but cannot change via defineProperty" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Property Descriptors.non-configurable property can change value" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_three_objects.test.js" />
-      <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="Chapter 3: Objects" />
-        <test-name value="Property Descriptors" />
-        <test-name value="non-configurable property can change value" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Property Descriptors.non-configurable property can change value but cannot change via defineProperty" />
-      <item itemvalue="Jest.You Don't Know Javascript" />
-      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Property Descriptors.non-configurable property can change value" />
-      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Immutability.one can make a constant property with a combination of writable and configurable" />
       <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Immutability.one cannot add properties to an extension prevented object" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can create variables which reference functions" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function" />
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can create variables which reference functions" />
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" />
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions" />
         <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Immutability.one cannot add properties to an extension prevented object" />
-        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Immutability.one can make a constant property with a combination of writable and configurable" />
-        <item itemvalue="Jest.You Don't Know Javascript" />
-        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Property Descriptors.non-configurable property can change value" />
-        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Property Descriptors.non-configurable property can change value but cannot change via defineProperty" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +195,7 @@
       <workItem from="1590526093894" duration="2352000" />
       <workItem from="1590779357495" duration="847000" />
       <workItem from="1590836217814" duration="3612000" />
-      <workItem from="1591025177271" duration="5835000" />
+      <workItem from="1591025177271" duration="6912000" />
     </task>
     <servers />
   </component>
@@ -232,28 +234,28 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1591039371927">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1591042197205">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591039371927" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591042197205" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208805" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1591039371926">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1591042197203">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591039371926" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591042197203" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208804" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1591039371926">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1591042197202">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591039371926" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591042197202" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208804" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1591039371927">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1591042197204">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591039371927" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591042197204" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208805" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1591032806316">
