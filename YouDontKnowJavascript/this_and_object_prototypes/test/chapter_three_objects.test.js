@@ -54,5 +54,35 @@ describe('You Don\'t Know Javascript', function () {
         expect(() => { myObject.b = 20; }).toThrow(TypeError);
       });
     });
+
+    describe('Existence', function () {
+      beforeEach(() => {
+        function MakeObject(a, b) {
+          this.a = a;
+          this.b = b;
+        }
+        MakeObject.prototype.add = function(a, b) {
+          return a + b;
+        }
+        myObject = new MakeObject(10, 20);
+      });
+
+      it('hasOwnProperty is a property unique to the object, not to the constructor', function () {
+        myObject.c = 30;
+        expected = [true, false];
+        results = [myObject.hasOwnProperty("c"), myObject.hasOwnProperty("add")];
+        expect(results).toEqual(expected);
+        /*
+        Note if I had checked for the "a" or "b" properties, hasOwnProperty would have returned true.  Those properties
+        directly set in the constructor body become properties which are copied and owned by the instance.  But "foo"
+        was put on the prototype so it is not an "own" property.
+         */
+      });
+
+      it('should \'in\' checks if property is own or is in prototype chain', function () {
+        expect("a" in myObject).toBe(true);
+        expect("add" in myObject).toBe(true);
+      });
+    });
   }); 
 });
