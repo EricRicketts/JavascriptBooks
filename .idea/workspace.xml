@@ -45,7 +45,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.You Don't Know Javascript">
+  <component name="RunManager" selected="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.for a null based object you must call Object.prototype.hasOwnProperty">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -53,38 +53,6 @@
       <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" />
-      <test-names>
-        <test-name value="Udemy Learn and Understand NodeJS" />
-        <test-name value="Section Four: Modules, Exports, and Requires" />
-        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
-        <test-name value="function expressions can be used as arguments to a function" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can create variables which reference functions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" />
-      <test-names>
-        <test-name value="Udemy Learn and Understand NodeJS" />
-        <test-name value="Section Four: Modules, Exports, and Requires" />
-        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
-        <test-name value="function expressions can create variables which reference functions" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="You Don't Know Javascript" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -100,7 +68,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Existence.hasOwnProperty is a property unique to the object, not to the constructor" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Existence.'in' does check if the property actually exists on the object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -112,7 +80,39 @@
         <test-name value="You Don't Know Javascript" />
         <test-name value="Chapter 3: Objects" />
         <test-name value="Existence" />
-        <test-name value="hasOwnProperty is a property unique to the object, not to the constructor" />
+        <test-name value="'in' does check if the property actually exists on the object" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Existence.for a null based object you must call Object.prototype.hasOwnProperty" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_three_objects.test.js" />
+      <test-names>
+        <test-name value="You Don't Know Javascript" />
+        <test-name value="Chapter 3: Objects" />
+        <test-name value="Existence" />
+        <test-name value="for a null based object you must call Object.prototype.hasOwnProperty" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="You Don't Know Javascript.Chapter 3: Objects.Existence.hasOwnProperty is delegated to an object through Object.prototype" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_three_objects.test.js" />
+      <test-names>
+        <test-name value="You Don't Know Javascript" />
+        <test-name value="Chapter 3: Objects" />
+        <test-name value="Existence" />
+        <test-name value="hasOwnProperty is delegated to an object through Object.prototype" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -134,19 +134,19 @@
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can create variables which reference functions" />
-      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function" />
-      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.hasOwnProperty is a property unique to the object, not to the constructor" />
       <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.should 'in' checks if property is own or is in prototype chain" />
       <item itemvalue="Jest.You Don't Know Javascript" />
+      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.'in' does check if the property actually exists on the object" />
+      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.hasOwnProperty is delegated to an object through Object.prototype" />
+      <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.for a null based object you must call Object.prototype.hasOwnProperty" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.for a null based object you must call Object.prototype.hasOwnProperty" />
+        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.hasOwnProperty is delegated to an object through Object.prototype" />
         <item itemvalue="Jest.You Don't Know Javascript" />
+        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.'in' does check if the property actually exists on the object" />
         <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.should 'in' checks if property is own or is in prototype chain" />
-        <item itemvalue="Jest.You Don't Know Javascript.Chapter 3: Objects.Existence.hasOwnProperty is a property unique to the object, not to the constructor" />
-        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can be used as arguments to a function" />
-        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Section Four: Modules, Exports, and Requires.Javascript Aside: First Class Functions and Function Expressions.function expressions can create variables which reference functions" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +195,8 @@
       <workItem from="1590779357495" duration="847000" />
       <workItem from="1590836217814" duration="3612000" />
       <workItem from="1591025177271" duration="7144000" />
-      <workItem from="1591051645654" duration="1000000" />
+      <workItem from="1591051645654" duration="1326000" />
+      <workItem from="1591255574940" duration="1267000" />
     </task>
     <servers />
   </component>
@@ -236,29 +237,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1591059190761">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1591257078861">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591059190761" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208805" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591059375543" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1591257078861" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1591059190759">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1591257078859">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591059190759" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208804" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591059375542" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1591257078859" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1591059190759">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1591257078858">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591059190759" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208804" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591059375541" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1591257078858" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1591059190760">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1591257078859">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591059190760" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590844208805" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591059375542" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1591257078859" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1591032806316">
       <screen x="0" y="0" width="1440" height="900" />

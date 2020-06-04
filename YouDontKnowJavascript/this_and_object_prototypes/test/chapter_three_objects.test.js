@@ -56,7 +56,24 @@ describe('You Don\'t Know Javascript', function () {
     });
 
     describe('Existence', function () {
+      let obj1, obj2;
       beforeEach(() => {
+        obj1 = Object.create({}, {
+          a: {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: 1
+          }
+        });
+        obj2 = Object.create(null, {
+          a: {
+            enumerable: true,
+            configurable: true,
+            writable: true,
+            value: 2
+          }
+        });
         function MakeObject(a, b) {
           this.a = a;
           this.b = b;
@@ -79,9 +96,29 @@ describe('You Don\'t Know Javascript', function () {
          */
       });
 
-      it('should \'in\' checks if property is own or is in prototype chain', function () {
+      it('\'in\' checks if property is own or is in prototype chain', function () {
         expect("a" in myObject).toBe(true);
         expect("add" in myObject).toBe(true);
+      });
+
+      it('\'in\' does check if the property actually exists on the object', function () {
+        expected = [undefined, false];
+        results = [myObject.c, "c" in myObject];
+        expect(results).toEqual(expected);
+      });
+
+      it('hasOwnProperty is delegated to an object through Object.prototype', function () {
+        expect(() => { obj2.hasOwnProperty("a"); }).toThrow(TypeError);
+        /*
+        we have a TypeError here because obj2 was created with null as its prototype, thus all of the functions
+        that obj2 would delegate to Object do not exist.
+         */
+      });
+
+      it('for a null based object you must call Object.prototype.hasOwnProperty', function () {
+        expected = [true, true];
+        results = [obj1.hasOwnProperty("a"), Object.prototype.hasOwnProperty.call(obj2, "a")];
+        expect(results).toEqual(expected);
       });
     });
   }); 
