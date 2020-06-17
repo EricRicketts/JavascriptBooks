@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +45,7 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.shadowing occurs when lower level object has the same property">
+  <component name="RunManager" selected="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,24 +55,23 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.The [[Prototype]] Property of Object.prototype is null" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
+      <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
       <test-names>
         <test-name value="You Don't Know Javascript" />
         <test-name value="this and Object Prototypes" />
         <test-name value="Chapter 5: Prototypes" />
-        <test-name value="[[Prototype]] property on objects" />
-        <test-name value="The [[Prototype]] Property of Object.prototype is null" />
+        <test-name value="Objects Linked To Other Objects (OLOO)" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.for .. in loop looks at all properties including inherited properties" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).a should be an instance of foo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -83,12 +83,12 @@
         <test-name value="You Don't Know Javascript" />
         <test-name value="this and Object Prototypes" />
         <test-name value="Chapter 5: Prototypes" />
-        <test-name value="[[Prototype]] property on objects" />
-        <test-name value="for .. in loop looks at all properties including inherited properties" />
+        <test-name value="Objects Linked To Other Objects (OLOO)" />
+        <test-name value="a should be an instance of foo" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.literal objects have Object.prototype as their [[Prototype]] property" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -100,29 +100,28 @@
         <test-name value="You Don't Know Javascript" />
         <test-name value="this and Object Prototypes" />
         <test-name value="Chapter 5: Prototypes" />
-        <test-name value="[[Prototype]] property on objects" />
-        <test-name value="literal objects have Object.prototype as their [[Prototype]] property" />
+        <test-name value="Objects Linked To Other Objects (OLOO)" />
+        <test-name value="b should be an instance of bar" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.properties from prototype and not &quot;own&quot; properties" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
+      <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
       <test-names>
         <test-name value="You Don't Know Javascript" />
         <test-name value="this and Object Prototypes" />
         <test-name value="Chapter 5: Prototypes" />
-        <test-name value="[[Prototype]] property on objects" />
-        <test-name value="properties from prototype and not &quot;own&quot; properties" />
+        <test-name value="Pseudo Classical Inheritance done robustly" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.shadowing occurs when lower level object has the same property" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly.a should be an instance of Foo, b an instance of Bar and Foo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
@@ -134,26 +133,26 @@
         <test-name value="You Don't Know Javascript" />
         <test-name value="this and Object Prototypes" />
         <test-name value="Chapter 5: Prototypes" />
-        <test-name value="[[Prototype]] property on objects" />
-        <test-name value="shadowing occurs when lower level object has the same property" />
+        <test-name value="Pseudo Classical Inheritance done robustly" />
+        <test-name value="a should be an instance of Foo, b an instance of Bar and Foo" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.properties from prototype and not &quot;own&quot; properties" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.for .. in loop looks at all properties including inherited properties" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.literal objects have Object.prototype as their [[Prototype]] property" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.The [[Prototype]] Property of Object.prototype is null" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.shadowing occurs when lower level object has the same property" />
+      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly.a should be an instance of Foo, b an instance of Bar and Foo" />
+      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly" />
+      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).a should be an instance of foo" />
+      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO)" />
+      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.shadowing occurs when lower level object has the same property" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.The [[Prototype]] Property of Object.prototype is null" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.literal objects have Object.prototype as their [[Prototype]] property" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.for .. in loop looks at all properties including inherited properties" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.[[Prototype]] property on objects.properties from prototype and not &quot;own&quot; properties" />
+        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar" />
+        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO)" />
+        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).a should be an instance of foo" />
+        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly.a should be an instance of Foo, b an instance of Bar and Foo" />
+        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +204,9 @@
       <workItem from="1591051645654" duration="1326000" />
       <workItem from="1591255574940" duration="3357000" />
       <workItem from="1591284700971" duration="2084000" />
+      <workItem from="1591378105717" duration="282000" />
+      <workItem from="1592337287160" duration="711000" />
+      <workItem from="1592384122275" duration="5262000" />
     </task>
     <servers />
   </component>
@@ -229,13 +231,13 @@
     </state>
     <state x="369" y="224" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587236969067" />
     <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1587732370492" />
-    <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1591266800318">
+    <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1592392975010">
       <screen x="0" y="23" width="2560" height="1337" />
     </state>
     <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1591059205803" />
     <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1588168799782" />
     <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.826@0.23.1440.826" timestamp="1591059215912" />
-    <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1591266800318" />
+    <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1592392975010" />
     <state x="100" y="23" width="2360" height="1338" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1587839354631" />
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588465278686">
       <screen x="0" y="0" width="1440" height="900" />
@@ -245,29 +247,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1591294197782">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1592401885957">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591294197782" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1591279966942" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592344966400" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885957" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1591294197781">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1592401885956">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591294197781" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1591279966941" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592344966399" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885956" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1591294197780">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1592401885956">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591294197780" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1591279966941" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592344966398" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885956" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1591294197781">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1592401885957">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591294197781" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1591279966942" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592344966399" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885957" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1591032806316">
       <screen x="0" y="0" width="1440" height="900" />
