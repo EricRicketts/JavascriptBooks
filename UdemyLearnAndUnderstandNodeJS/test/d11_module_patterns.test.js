@@ -1,4 +1,4 @@
-let greetings = require('../files/D11_ModulePatterns/index');
+let greetings = require('../files/D11ModulePatterns/index');
 
 describe('D11 Module Patterns', function () {
   it('entire exports is a function', function () {

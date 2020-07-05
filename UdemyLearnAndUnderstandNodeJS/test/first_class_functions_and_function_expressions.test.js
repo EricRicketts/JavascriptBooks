@@ -1,4 +1,4 @@
-import { greet, logGreeting, greetMe } from "../files/D2_FirstClassFunctions/Starter/app";
+import { greet, logGreeting, greetMe } from "../files/D2FirstClassFunctions/Starter/app";
 
 describe('Udemy Learn and Understand NodeJS', function () {
   describe('Section Four: Modules, Exports, and Requires', function () {
