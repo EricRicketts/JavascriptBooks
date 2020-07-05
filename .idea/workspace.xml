@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/D9_MoreOnRequire/Finished/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/D9_MoreOnRequire/Finished/greet/english.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/D9_MoreOnRequire/Finished/greet/greetings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/D9_MoreOnRequire/Finished/greet/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/D9_MoreOnRequire/Finished/greet/spanish.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/D9_MoreOnRequire/Starter/app.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.5.0" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -44,8 +50,9 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar">
+  <component name="RunManager" selected="Jest.D11 Module Patterns.modules create closures over local variables">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -55,104 +62,90 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="D11 Module Patterns" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="this and Object Prototypes" />
-        <test-name value="Chapter 5: Prototypes" />
-        <test-name value="Objects Linked To Other Objects (OLOO)" />
+        <test-name value="D11 Module Patterns" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).a should be an instance of foo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="D11 Module Patterns.constructor in modules returns an object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="this and Object Prototypes" />
-        <test-name value="Chapter 5: Prototypes" />
-        <test-name value="Objects Linked To Other Objects (OLOO)" />
-        <test-name value="a should be an instance of foo" />
+        <test-name value="D11 Module Patterns" />
+        <test-name value="constructor in modules returns an object" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="D11 Module Patterns.export constructor to create objects" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="this and Object Prototypes" />
-        <test-name value="Chapter 5: Prototypes" />
-        <test-name value="Objects Linked To Other Objects (OLOO)" />
-        <test-name value="b should be an instance of bar" />
+        <test-name value="D11 Module Patterns" />
+        <test-name value="export constructor to create objects" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
-      <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="this and Object Prototypes" />
-        <test-name value="Chapter 5: Prototypes" />
-        <test-name value="Pseudo Classical Inheritance done robustly" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly.a should be an instance of Foo, b an instance of Bar and Foo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="D11 Module Patterns.modules create closures over local variables" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/YouDontKnowJavascript/this_and_object_prototypes/test/chapter_five_prototypes.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
       <test-names>
-        <test-name value="You Don't Know Javascript" />
-        <test-name value="this and Object Prototypes" />
-        <test-name value="Chapter 5: Prototypes" />
-        <test-name value="Pseudo Classical Inheritance done robustly" />
-        <test-name value="a should be an instance of Foo, b an instance of Bar and Foo" />
+        <test-name value="D11 Module Patterns" />
+        <test-name value="modules create closures over local variables" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="D11 Module Patterns.use new constructor to return an object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
+      <test-names>
+        <test-name value="D11 Module Patterns" />
+        <test-name value="use new constructor to return an object" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly.a should be an instance of Foo, b an instance of Bar and Foo" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).a should be an instance of foo" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO)" />
-      <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar" />
+      <item itemvalue="Jest.D11 Module Patterns.use new constructor to return an object" />
+      <item itemvalue="Jest.D11 Module Patterns.export constructor to create objects" />
+      <item itemvalue="Jest.D11 Module Patterns.constructor in modules returns an object" />
+      <item itemvalue="Jest.D11 Module Patterns" />
+      <item itemvalue="Jest.D11 Module Patterns.modules create closures over local variables" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).b should be an instance of bar" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO)" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Objects Linked To Other Objects (OLOO).a should be an instance of foo" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly.a should be an instance of Foo, b an instance of Bar and Foo" />
-        <item itemvalue="Jest.You Don't Know Javascript.this and Object Prototypes.Chapter 5: Prototypes.Pseudo Classical Inheritance done robustly" />
+        <item itemvalue="Jest.D11 Module Patterns.modules create closures over local variables" />
+        <item itemvalue="Jest.D11 Module Patterns" />
+        <item itemvalue="Jest.D11 Module Patterns.constructor in modules returns an object" />
+        <item itemvalue="Jest.D11 Module Patterns.export constructor to create objects" />
+        <item itemvalue="Jest.D11 Module Patterns.use new constructor to return an object" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +199,12 @@
       <workItem from="1591284700971" duration="2084000" />
       <workItem from="1591378105717" duration="282000" />
       <workItem from="1592337287160" duration="711000" />
-      <workItem from="1592384122275" duration="5262000" />
+      <workItem from="1592384122275" duration="5403000" />
+      <workItem from="1593077957750" duration="172000" />
+      <workItem from="1593183397984" duration="874000" />
+      <workItem from="1593204696011" duration="1675000" />
+      <workItem from="1593874790500" duration="2516000" />
+      <workItem from="1593956564273" duration="2258000" />
     </task>
     <servers />
   </component>
@@ -226,6 +224,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1038" y="391" key="#Rules_for_determining_this.should_/0.0.2560.1440@0.0.2560.1440" timestamp="1587207058105" />
+    <state x="516" y="260" key="#Usage_Scope" timestamp="1593908053162">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="516" y="260" key="#Usage_Scope/0.0.1440.900@0.0.1440.900" timestamp="1593908053162" />
     <state x="744" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587732370492">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
@@ -239,6 +241,10 @@
     <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.826@0.23.1440.826" timestamp="1591059215912" />
     <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1592392975010" />
     <state x="100" y="23" width="2360" height="1338" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1338@0.23.2560.1338" timestamp="1587839354631" />
+    <state x="407" y="250" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593890649841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="407" y="250" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1593890649841" />
     <state x="408" y="193" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588465278686">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -247,29 +253,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1592401885957">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1593974698477">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592344966400" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885957" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593974698477" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122614" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1592401885956">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1593974698476">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592344966399" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885956" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593974698476" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122613" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1592401885956">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1593974698475">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592344966398" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885956" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593974698475" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122612" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1592401885957">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1593974698477">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592344966399" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1592401885957" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593974698477" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122613" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1591032806316">
       <screen x="0" y="0" width="1440" height="900" />
@@ -343,6 +349,10 @@
     <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1591032806320" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960933" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
+    <state x="221" y="89" key="SettingsEditor" timestamp="1593908061729">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1593908061729" />
     <state x="945" y="331" key="search.everywhere.popup" timestamp="1589189772861">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
