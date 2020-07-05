@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/how_do_modules_really_work.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/how_do_modules_really_work.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/files/C6LetsRunSomeJavascript/Finished/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/files/C6LetsRunSomeJavascript/Starter/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/first_class_functions_and_function_expressions.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d2_first_class_functions_and_function_expressions.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/run_node_basics.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/run_node_basics.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +50,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.D12 Exports Versus Module Dot Exports.add property to exports same as adding property to module.exports">
+  <component name="RunManager" selected="Jest.d7_how_do_modules_really_work.test.js">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -60,89 +60,90 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="D11 Module Patterns" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
-      <test-names>
-        <test-name value="D11 Module Patterns" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="D11 Module Patterns.modules create closures over local variables" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d11_module_patterns.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d2_first_class_functions_and_function_expressions.test.js" />
       <test-names>
-        <test-name value="D11 Module Patterns" />
-        <test-name value="modules create closures over local variables" />
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
+        <test-name value="As first class citizens functions can be used as arguments to other functions" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="D12 Exports Versus Module Dot Exports" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d12_exports_vs_module_exports.test.js" />
-      <test-names>
-        <test-name value="D12 Exports Versus Module Dot Exports" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="D12 Exports Versus Module Dot Exports.add property to exports same as adding property to module.exports" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be immediately invoked the the results stored in a variable" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d12_exports_vs_module_exports.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d2_first_class_functions_and_function_expressions.test.js" />
       <test-names>
-        <test-name value="D12 Exports Versus Module Dot Exports" />
-        <test-name value="add property to exports same as adding property to module.exports" />
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
+        <test-name value="functions can be immediately invoked the the results stored in a variable" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="D12 Exports Versus Module Dot Exports.require only returns value of module.exports" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be invoked" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d12_exports_vs_module_exports.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d2_first_class_functions_and_function_expressions.test.js" />
       <test-names>
-        <test-name value="D12 Exports Versus Module Dot Exports" />
-        <test-name value="require only returns value of module.exports" />
+        <test-name value="Udemy Learn and Understand NodeJS" />
+        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
+        <test-name value="functions can be invoked" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="d7_how_do_modules_really_work.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d7_how_do_modules_really_work.test.js" />
+      <method v="2" />
+    </configuration>
+    <configuration name="import a simple app and run it in node.c property on obj should evaluate to 13" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/run_node_basics.test.js" />
+      <test-names>
+        <test-name value="import a simple app and run it in node" />
+        <test-name value="c property on obj should evaluate to 13" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.D11 Module Patterns" />
-      <item itemvalue="Jest.D11 Module Patterns.modules create closures over local variables" />
-      <item itemvalue="Jest.D12 Exports Versus Module Dot Exports" />
-      <item itemvalue="Jest.D12 Exports Versus Module Dot Exports.require only returns value of module.exports" />
-      <item itemvalue="Jest.D12 Exports Versus Module Dot Exports.add property to exports same as adding property to module.exports" />
+      <item itemvalue="Jest.import a simple app and run it in node.c property on obj should evaluate to 13" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be immediately invoked the the results stored in a variable" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" />
+      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be invoked" />
+      <item itemvalue="Jest.d7_how_do_modules_really_work.test.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.D12 Exports Versus Module Dot Exports.add property to exports same as adding property to module.exports" />
-        <item itemvalue="Jest.D12 Exports Versus Module Dot Exports.require only returns value of module.exports" />
-        <item itemvalue="Jest.D12 Exports Versus Module Dot Exports" />
-        <item itemvalue="Jest.D11 Module Patterns.modules create closures over local variables" />
-        <item itemvalue="Jest.D11 Module Patterns" />
+        <item itemvalue="Jest.d7_how_do_modules_really_work.test.js" />
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be invoked" />
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" />
+        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be immediately invoked the the results stored in a variable" />
+        <item itemvalue="Jest.import a simple app and run it in node.c property on obj should evaluate to 13" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +202,7 @@
       <workItem from="1593183397984" duration="874000" />
       <workItem from="1593204696011" duration="1675000" />
       <workItem from="1593874790500" duration="2516000" />
-      <workItem from="1593956564273" duration="4786000" />
+      <workItem from="1593956564273" duration="6599000" />
     </task>
     <servers />
   </component>
@@ -250,28 +251,28 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1593978983324">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1593990047899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593978983324" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1593990047899" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122614" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1593978983323">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1593990047898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593978983323" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1593990047898" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122613" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1593978983322">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1593990047897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593978983322" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1593990047897" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122612" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1593978983323">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1593990047899">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593978983323" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1593990047899" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1592402122613" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1593978021881">
