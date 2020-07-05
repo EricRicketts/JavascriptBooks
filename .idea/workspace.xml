@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +44,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.D13 Requiring Core Modules.We can require core modules from NodeJS">
+  <component name="RunManager" selected="Jest.More On Require">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -70,6 +68,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="More On Require" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section4ModulesExportsAndRequire/test/d10_more_on_require.test.js" />
+      <test-names>
+        <test-name value="More On Require" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -82,21 +93,6 @@
         <test-name value="Udemy Learn and Understand NodeJS" />
         <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
         <test-name value="As first class citizens functions can be used as arguments to other functions" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be immediately invoked the the results stored in a variable" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/test/d2_first_class_functions_and_function_expressions.test.js" />
-      <test-names>
-        <test-name value="Udemy Learn and Understand NodeJS" />
-        <test-name value="Javascript Aside: First Class Functions and Function Expressions" />
-        <test-name value="functions can be immediately invoked the the results stored in a variable" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -127,19 +123,19 @@
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be immediately invoked the the results stored in a variable" />
       <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" />
       <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be invoked" />
       <item itemvalue="Jest.d7_how_do_modules_really_work.test.js" />
       <item itemvalue="Jest.D13 Requiring Core Modules.We can require core modules from NodeJS" />
+      <item itemvalue="Jest.More On Require" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.More On Require" />
         <item itemvalue="Jest.D13 Requiring Core Modules.We can require core modules from NodeJS" />
         <item itemvalue="Jest.d7_how_do_modules_really_work.test.js" />
         <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be invoked" />
         <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.As first class citizens functions can be used as arguments to other functions" />
-        <item itemvalue="Jest.Udemy Learn and Understand NodeJS.Javascript Aside: First Class Functions and Function Expressions.functions can be immediately invoked the the results stored in a variable" />
       </list>
     </recent_temporary>
   </component>
@@ -198,7 +194,7 @@
       <workItem from="1593183397984" duration="874000" />
       <workItem from="1593204696011" duration="1675000" />
       <workItem from="1593874790500" duration="2516000" />
-      <workItem from="1593956564273" duration="7323000" />
+      <workItem from="1593956564273" duration="7519000" />
     </task>
     <servers />
   </component>
