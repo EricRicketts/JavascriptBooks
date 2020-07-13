@@ -46,7 +46,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters">
+  <component name="RunManager" selected="Jest.E9 Inheriting From The Event Emitter Part Two">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -56,45 +56,16 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="E5 Node Event Emitter Part Two Actual NodeJS Version.emit type one events for Node" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="E6 Inheriting From The Event Emitter Part One" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e5_node_even_emitter_part_two.test.js" />
-      <test-names>
-        <test-name value="E5 Node Event Emitter Part Two Actual NodeJS Version" />
-        <test-name value="emit type one events for Node" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="E5 Node Event Emitter Part Two Actual NodeJS Version.emit type two events for Node" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e5_node_even_emitter_part_two.test.js" />
-      <test-names>
-        <test-name value="E5 Node Event Emitter Part Two Actual NodeJS Version" />
-        <test-name value="emit type two events for Node" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="E6 Inheriting From The Event Emitter Part One.Greeter constructor has EventEmitter properties" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
+      <scope-kind value="SUITE" />
       <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e6_inheriting_from_the_event_emitter_part_one.test.js" />
       <test-names>
         <test-name value="E6 Inheriting From The Event Emitter Part One" />
-        <test-name value="Greeter constructor has EventEmitter properties" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -112,35 +83,58 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Object Create and Prototypes.should allow for unique objects with common behavior" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="E9 Inheriting From The Event Emitter Part Two" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e9_inheriting_from_the_event_emitter_part_two.test.js" />
+      <test-names>
+        <test-name value="E9 Inheriting From The Event Emitter Part Two" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="E9 Inheriting From The Event Emitter Part Two.have added listeners to the policeman object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e5_object_create_and_prototypes.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e9_inheriting_from_the_event_emitter_part_two.test.js" />
       <test-names>
-        <test-name value="Object Create and Prototypes" />
-        <test-name value="should allow for unique objects with common behavior" />
+        <test-name value="E9 Inheriting From The Event Emitter Part Two" />
+        <test-name value="have added listeners to the policeman object" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="e9_inheriting_from_the_event_emitter_part_two.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e9_inheriting_from_the_event_emitter_part_two.test.js" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type two events for Node" />
-      <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type one events for Node" />
-      <item itemvalue="Jest.Object Create and Prototypes.should allow for unique objects with common behavior" />
-      <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.Greeter constructor has EventEmitter properties" />
       <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters" />
+      <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two" />
+      <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One" />
+      <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two.have added listeners to the policeman object" />
+      <item itemvalue="Jest.e9_inheriting_from_the_event_emitter_part_two.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two" />
+        <item itemvalue="Jest.e9_inheriting_from_the_event_emitter_part_two.test.js" />
+        <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two.have added listeners to the policeman object" />
+        <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One" />
         <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters" />
-        <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.Greeter constructor has EventEmitter properties" />
-        <item itemvalue="Jest.Object Create and Prototypes.should allow for unique objects with common behavior" />
-        <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type two events for Node" />
-        <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type one events for Node" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +198,7 @@
       <workItem from="1594377083862" duration="1269000" />
       <workItem from="1594581276452" duration="8000" />
       <workItem from="1594581315369" duration="3917000" />
-      <workItem from="1594633648289" duration="2840000" />
+      <workItem from="1594633648289" duration="6602000" />
     </task>
     <servers />
   </component>
@@ -259,101 +253,101 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1594637831295">
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1594649662347">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594596254879" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831295" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594649662347" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1594637831293">
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1594649662346">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594596254878" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831293" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594649662346" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1594637831292">
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1594649662346">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594596254877" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831292" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594649662346" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1594637831294">
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1594649662347">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594596254879" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831294" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594649662347" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1594594863687">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1594649073798">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594594863687" />
-    <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960930" />
+    <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073798" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="1419" height="298" key="GridCell.Tab.1.center" timestamp="1594594863686">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.1.center" timestamp="1594649073797">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1594594863686" />
-    <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960929" />
+    <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073797" />
     <state width="2539" height="514" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
-    <state width="1419" height="298" key="GridCell.Tab.1.left" timestamp="1594594863685">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.1.left" timestamp="1594649073796">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1594594863685" />
-    <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960929" />
+    <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073796" />
     <state width="2539" height="514" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295617" />
-    <state width="1419" height="298" key="GridCell.Tab.1.right" timestamp="1594594863686">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.1.right" timestamp="1594649073797">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1594594863686" />
-    <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960929" />
+    <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073797" />
     <state width="2539" height="514" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
-    <state width="1419" height="298" key="GridCell.Tab.2.bottom" timestamp="1594594863689">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.2.bottom" timestamp="1594649073800">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594594863689" />
-    <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960932" />
+    <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073800" />
     <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="1419" height="298" key="GridCell.Tab.2.center" timestamp="1594594863688">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.2.center" timestamp="1594649073799">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1594594863688" />
-    <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960930" />
+    <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073799" />
     <state width="2539" height="514" key="GridCell.Tab.2.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="1419" height="298" key="GridCell.Tab.2.left" timestamp="1594594863687">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.2.left" timestamp="1594649073798">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1594594863687" />
-    <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960930" />
+    <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073798" />
     <state width="2539" height="514" key="GridCell.Tab.2.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="1419" height="298" key="GridCell.Tab.2.right" timestamp="1594594863688">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.2.right" timestamp="1594649073799">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1594594863688" />
-    <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960931" />
+    <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073799" />
     <state width="2539" height="514" key="GridCell.Tab.2.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="1419" height="298" key="GridCell.Tab.3.bottom" timestamp="1594594863691">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.3.bottom" timestamp="1594649073802">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594594863691" />
-    <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960933" />
+    <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073802" />
     <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state width="1419" height="298" key="GridCell.Tab.3.center" timestamp="1594594863690">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.3.center" timestamp="1594649073801">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1594594863690" />
-    <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960932" />
+    <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073801" />
     <state width="2539" height="514" key="GridCell.Tab.3.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state width="1419" height="298" key="GridCell.Tab.3.left" timestamp="1594594863689">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.3.left" timestamp="1594649073800">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1594594863689" />
-    <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960932" />
+    <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073800" />
     <state width="2539" height="514" key="GridCell.Tab.3.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="1419" height="298" key="GridCell.Tab.3.right" timestamp="1594594863690">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.3.right" timestamp="1594649073801">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1594594863690" />
-    <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1590843960933" />
+    <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594649073801" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1593908061729">
       <screen x="0" y="0" width="1440" height="900" />
