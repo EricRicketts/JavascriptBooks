@@ -46,7 +46,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.E10 ES6 Classes.person object should have the defined properties">
+  <component name="RunManager" selected="Jest.E11 My Own OLOO.Person still has its own properties">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -84,16 +84,31 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="E9 Inheriting From The Event Emitter Part Two" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="E11 My Own OLOO.Person still has its own properties" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e9_inheriting_from_the_event_emitter_part_two.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e11_my_own_oloo.test.js" />
       <test-names>
-        <test-name value="E9 Inheriting From The Event Emitter Part Two" />
+        <test-name value="E11 My Own OLOO" />
+        <test-name value="Person still has its own properties" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="E11 My Own OLOO.should have Event Emitter behavior" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e11_my_own_oloo.test.js" />
+      <test-names>
+        <test-name value="E11 My Own OLOO" />
+        <test-name value="should have Event Emitter behavior" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -111,31 +126,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="e9_inheriting_from_the_event_emitter_part_two.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e9_inheriting_from_the_event_emitter_part_two.test.js" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two" />
-      <item itemvalue="Jest.e9_inheriting_from_the_event_emitter_part_two.test.js" />
       <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two.should have a first and last name" />
       <item itemvalue="Jest.E10 ES6 Classes.should have the behavior of the Event Emitter" />
       <item itemvalue="Jest.E10 ES6 Classes.person object should have the defined properties" />
+      <item itemvalue="Jest.E11 My Own OLOO.should have Event Emitter behavior" />
+      <item itemvalue="Jest.E11 My Own OLOO.Person still has its own properties" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.E11 My Own OLOO.Person still has its own properties" />
+        <item itemvalue="Jest.E11 My Own OLOO.should have Event Emitter behavior" />
         <item itemvalue="Jest.E10 ES6 Classes.person object should have the defined properties" />
         <item itemvalue="Jest.E10 ES6 Classes.should have the behavior of the Event Emitter" />
         <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two.should have a first and last name" />
-        <item itemvalue="Jest.E9 Inheriting From The Event Emitter Part Two" />
-        <item itemvalue="Jest.e9_inheriting_from_the_event_emitter_part_two.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +205,7 @@
       <workItem from="1594581276452" duration="8000" />
       <workItem from="1594581315369" duration="3917000" />
       <workItem from="1594633648289" duration="6786000" />
-      <workItem from="1594664573388" duration="1804000" />
+      <workItem from="1594664573388" duration="3454000" />
     </task>
     <servers />
   </component>
@@ -255,28 +260,28 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1594667722681">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1594669843436">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594667722681" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594669843435" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594649758810" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1594667722680">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1594669843433">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594667722680" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594669843433" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594649758807" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1594667722679">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1594669843431">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594667722679" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594669843431" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594649758806" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1594667722681">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1594669843434">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594667722681" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594669843434" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594649758809" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1594649073798">
