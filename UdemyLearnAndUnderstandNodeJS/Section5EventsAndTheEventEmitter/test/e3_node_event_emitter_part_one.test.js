@@ -1,4 +1,4 @@
-import { Emitter } from "../files/E4NodeEventEmitterPartOne/emitter";
+import { Emitter } from "../files/E3NodeEventEmitterPartOne/emitter";
 import { first, second, third, fourth } from "../files/Miscellaneous/four_functions";
 
 describe('E4 Node Event Emitter Part One My Own Version', function () {

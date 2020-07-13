@@ -1,4 +1,4 @@
-let x = require('../files/E2_FirstClassFunctionsArrays/index');
+let x = require('../files/E2FirstClassFunctionsArrays/index');
 
 describe('E2 First Class Functions and Arrays', function () {
   let results, expected;
