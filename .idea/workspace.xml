@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E2_FirstClassFunctionsArrays/Finished/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E2FirstClassFunctionsArrays/Finished/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E2_FirstClassFunctionsArrays/Starter/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E2FirstClassFunctionsArrays/Starter/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E2_FirstClassFunctionsArrays/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E2FirstClassFunctionsArrays/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E4NodeEventEmitterPartOne/emitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E3NodeEventEmitterPartOne/emitter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E4NodeEventEmitterPartOne/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/files/E3NodeEventEmitterPartOne/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e2_first_class_functions_and_arrays.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e2_first_class_functions_and_arrays.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e4_node_event_emitter_part_one.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e3_node_event_emitter_part_one.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e5_node_even_emitter_part_two.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e4_node_even_emitter_part_two.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +46,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.Object Create and Prototypes.should allow for unique objects with common behavior">
+  <component name="RunManager" selected="Jest.E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -62,19 +54,6 @@
       <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="E5 Node Event Emitter Part Two Actual NodeJS Version" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e5_node_even_emitter_part_two.test.js" />
-      <test-names>
-        <test-name value="E5 Node Event Emitter Part Two Actual NodeJS Version" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="E5 Node Event Emitter Part Two Actual NodeJS Version.emit type one events for Node" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -105,6 +84,34 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="E6 Inheriting From The Event Emitter Part One.Greeter constructor has EventEmitter properties" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e6_inheriting_from_the_event_emitter_part_one.test.js" />
+      <test-names>
+        <test-name value="E6 Inheriting From The Event Emitter Part One" />
+        <test-name value="Greeter constructor has EventEmitter properties" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e6_inheriting_from_the_event_emitter_part_one.test.js" />
+      <test-names>
+        <test-name value="E6 Inheriting From The Event Emitter Part One" />
+        <test-name value="should allow for on events with parameters" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="Object Create and Prototypes.should allow for unique objects with common behavior" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -119,31 +126,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="e4_node_event_emitter_part_one.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/Section5EventsAndTheEventEmitter/test/e4_node_event_emitter_part_one.test.js" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.e4_node_event_emitter_part_one.test.js" />
-      <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version" />
       <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type two events for Node" />
       <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type one events for Node" />
       <item itemvalue="Jest.Object Create and Prototypes.should allow for unique objects with common behavior" />
+      <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.Greeter constructor has EventEmitter properties" />
+      <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.should allow for on events with parameters" />
+        <item itemvalue="Jest.E6 Inheriting From The Event Emitter Part One.Greeter constructor has EventEmitter properties" />
         <item itemvalue="Jest.Object Create and Prototypes.should allow for unique objects with common behavior" />
         <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type two events for Node" />
         <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version.emit type one events for Node" />
-        <item itemvalue="Jest.E5 Node Event Emitter Part Two Actual NodeJS Version" />
-        <item itemvalue="Jest.e4_node_event_emitter_part_one.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +204,7 @@
       <workItem from="1594377083862" duration="1269000" />
       <workItem from="1594581276452" duration="8000" />
       <workItem from="1594581315369" duration="3917000" />
-      <workItem from="1594633648289" duration="740000" />
+      <workItem from="1594633648289" duration="2840000" />
     </task>
     <servers />
   </component>
@@ -262,29 +259,29 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1594596254879">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1594637831295">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594596254879" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594379936836" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831295" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1594596254878">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1594637831293">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594596254878" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594379936833" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831293" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1594596254877">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1594637831292">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594596254877" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594379936832" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831292" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1594596254879">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1594637831294">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594596254879" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594379936834" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594637831294" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
     <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1594594863687">
       <screen x="0" y="0" width="1440" height="900" />
