@@ -5,6 +5,14 @@ function Person(firstName, lastName) {
   this.firstName = firstName;
   this.lastName = lastName;
 }
+Person.prototype = Object.create(EventEmitter.prototype, {
+  constructor: {
+    value: Person,
+    enumerable: true,
+    configurable: true,
+    writable: true
+  }
+});
 
 Person.prototype.greet = function() {
   return `Hello, ${this.firstName} ${this.lastName}!`;
