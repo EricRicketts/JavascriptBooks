@@ -12,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -48,7 +48,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes.should traverse the node element hierarchy">
+  <component name="RunManager" selected="Jest.E6 Buffers.allow for write operations">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -58,16 +58,31 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Understanding JSDOM" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="E6 Buffers.allow for write operations" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter1NodeOverview/test/basic_node_overview.test.js" />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/SectionE6AsynchronousCode/test/buffer.test.js" />
       <test-names>
-        <test-name value="Understanding JSDOM" />
+        <test-name value="E6 Buffers" />
+        <test-name value="allow for write operations" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="E6 Buffers.should have a fixed size of 5 bytes" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/SectionE6AsynchronousCode/test/buffer.test.js" />
+      <test-names>
+        <test-name value="E6 Buffers" />
+        <test-name value="should have a fixed size of 5 bytes" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -112,35 +127,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Understanding JSDOM.document.body comes by default, we can populate the innerHTML" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter1NodeOverview/test/basic_node_overview.test.js" />
-      <test-names>
-        <test-name value="Understanding JSDOM" />
-        <test-name value="document.body comes by default, we can populate the innerHTML" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Understanding JSDOM.document.body comes by default, we can populate the innerHTML" />
-      <item itemvalue="Jest.Understanding JSDOM" />
       <item itemvalue="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes.We can get all the keys of and HTMLElement" />
       <item itemvalue="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes" />
       <item itemvalue="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes.should traverse the node element hierarchy" />
+      <item itemvalue="Jest.E6 Buffers.should have a fixed size of 5 bytes" />
+      <item itemvalue="Jest.E6 Buffers.allow for write operations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.E6 Buffers.allow for write operations" />
+        <item itemvalue="Jest.E6 Buffers.should have a fixed size of 5 bytes" />
         <item itemvalue="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes.should traverse the node element hierarchy" />
         <item itemvalue="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes.We can get all the keys of and HTMLElement" />
         <item itemvalue="Jest.Understanding JSDOM, Jest and basic DOM Node Attributes" />
-        <item itemvalue="Jest.Understanding JSDOM" />
-        <item itemvalue="Jest.Understanding JSDOM.document.body comes by default, we can populate the innerHTML" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +208,7 @@
       <workItem from="1594633648289" duration="6786000" />
       <workItem from="1594664573388" duration="3639000" />
       <workItem from="1594750683952" duration="375000" />
-      <workItem from="1594999257026" duration="4883000" />
+      <workItem from="1594999257026" duration="6401000" />
     </task>
     <servers />
   </component>
@@ -263,104 +264,104 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="885" y="209" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1587507700619" />
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1595009763149">
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom" timestamp="1595066148808">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595009763149" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595066148808" />
     <state width="2539" height="514" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013285" />
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1595002401186" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1595009763148">
+    <state width="1419" height="240" key="GridCell.Tab.0.center" timestamp="1595066148807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595009763148" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595066148807" />
     <state width="2539" height="514" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013283" />
     <state width="1419" height="240" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1595002401186" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1595009763147">
+    <state width="1419" height="240" key="GridCell.Tab.0.left" timestamp="1595066148806">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595009763147" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595066148806" />
     <state width="2539" height="514" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013278" />
     <state width="1419" height="240" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1595002401185" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1595009763149">
+    <state width="1419" height="240" key="GridCell.Tab.0.right" timestamp="1595066148807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595009763149" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595066148807" />
     <state width="2539" height="514" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013284" />
     <state width="1419" height="240" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1595002401186" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1595009101652">
+    <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1595066142753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595009101652" />
+    <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595066142753" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013295" />
     <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="1419" height="298" key="GridCell.Tab.1.center" timestamp="1595009101651">
+    <state width="1419" height="298" key="GridCell.Tab.1.center" timestamp="1595066142752">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595009101651" />
+    <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595066142752" />
     <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013288" />
     <state width="2539" height="514" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
-    <state width="1419" height="298" key="GridCell.Tab.1.left" timestamp="1595009101650">
+    <state width="1419" height="298" key="GridCell.Tab.1.left" timestamp="1595066142752">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595009101650" />
+    <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595066142752" />
     <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013288" />
     <state width="2539" height="514" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295617" />
-    <state width="1419" height="298" key="GridCell.Tab.1.right" timestamp="1595009101651">
+    <state width="1419" height="298" key="GridCell.Tab.1.right" timestamp="1595066142753">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595009101651" />
+    <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595066142753" />
     <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013289" />
     <state width="2539" height="514" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295618" />
-    <state width="1419" height="298" key="GridCell.Tab.2.bottom" timestamp="1595009101654">
+    <state width="1419" height="298" key="GridCell.Tab.2.bottom" timestamp="1595066142755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595009101654" />
+    <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595066142755" />
     <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013322" />
     <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="1419" height="298" key="GridCell.Tab.2.center" timestamp="1595009101653">
+    <state width="1419" height="298" key="GridCell.Tab.2.center" timestamp="1595066142754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1595009101653" />
+    <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1595066142754" />
     <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013319" />
     <state width="2539" height="514" key="GridCell.Tab.2.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="1419" height="298" key="GridCell.Tab.2.left" timestamp="1595009101652">
+    <state width="1419" height="298" key="GridCell.Tab.2.left" timestamp="1595066142754">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1595009101652" />
+    <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1595066142754" />
     <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013305" />
     <state width="2539" height="514" key="GridCell.Tab.2.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295619" />
-    <state width="1419" height="298" key="GridCell.Tab.2.right" timestamp="1595009101653">
+    <state width="1419" height="298" key="GridCell.Tab.2.right" timestamp="1595066142755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1595009101653" />
+    <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1595066142755" />
     <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013321" />
     <state width="2539" height="514" key="GridCell.Tab.2.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="1419" height="298" key="GridCell.Tab.3.bottom" timestamp="1595009101656">
+    <state width="1419" height="298" key="GridCell.Tab.3.bottom" timestamp="1595066142757">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595009101656" />
+    <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595066142757" />
     <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013325" />
     <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state width="1419" height="298" key="GridCell.Tab.3.center" timestamp="1595009101655">
+    <state width="1419" height="298" key="GridCell.Tab.3.center" timestamp="1595066142756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1595009101655" />
+    <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1595066142756" />
     <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013323" />
     <state width="2539" height="514" key="GridCell.Tab.3.center/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
-    <state width="1419" height="298" key="GridCell.Tab.3.left" timestamp="1595009101654">
+    <state width="1419" height="298" key="GridCell.Tab.3.left" timestamp="1595066142755">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1595009101654" />
+    <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1595066142755" />
     <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013323" />
     <state width="2539" height="514" key="GridCell.Tab.3.left/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295620" />
-    <state width="1419" height="298" key="GridCell.Tab.3.right" timestamp="1595009101655">
+    <state width="1419" height="298" key="GridCell.Tab.3.right" timestamp="1595066142756">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1595009101655" />
+    <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1595066142756" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1594673013324" />
     <state width="2539" height="514" key="GridCell.Tab.3.right/0.23.2560.1337@0.23.2560.1337" timestamp="1587588295621" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1593908061729">
