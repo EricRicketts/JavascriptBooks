@@ -5,9 +5,11 @@ const { JSDOM } = jsdom;
 
 describe('Basic DOM Manipulation Part One', function () {
   let codeDirectory, emptyHTML, window, document, expected, results;
+  beforeEach(() => {
+    codeDirectory = path.join(__dirname, '..', 'code');
+  });
   describe('Create Element and Text Nodes With Javascript', function () {
     beforeEach(() => {
-      codeDirectory = path.join(__dirname, '..', 'code');
       emptyHTML = fs.readFileSync(codeDirectory + '/empty.html', 'utf8');
       window = new JSDOM(emptyHTML).window;
       document = window.document;
@@ -42,5 +44,20 @@ describe('Basic DOM Manipulation Part One', function () {
       results = [allAttributes.length, allAttributes[0].name, allAttributes[0].value];
       expect(results).toEqual(expected);
     });
-  }); 
+  });
+
+  describe('Wholesale Replacement of Descendents or Their Text and Adjacent Insertions', function () {
+    let html;
+    beforeEach(() => {
+      html = fs.readFileSync(codeDirectory + '/manipulation_part_one.html', 'utf8');
+      window = new JSDOM(html).window;
+      document = window.document;
+    });
+
+    it('innerHTML can be used to replace or insert new element content', function () {
+      document.getElementById('A').innerHTML = '<strong>Hi</strong>';
+      expected = '<div id="A"><strong>Hi</strong></div>';
+      expect(document.getElementById('A').outerHTML).toBe(expected);
+    });
+  });
 });

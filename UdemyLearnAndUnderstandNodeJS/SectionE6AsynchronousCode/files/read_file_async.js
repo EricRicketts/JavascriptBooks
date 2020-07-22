@@ -1,14 +1,8 @@
-const fs = require('fs');
-let asyncData;
-
 function callback(error, data) {
   if (error !== null) {
     return error.message;
   } else {
-    asyncData = data;
-    console.log(asyncData);
+    return data;
   }
 }
 
-fs.readFile(__dirname + '/greet.txt', callback);
-console.log(asyncData);
