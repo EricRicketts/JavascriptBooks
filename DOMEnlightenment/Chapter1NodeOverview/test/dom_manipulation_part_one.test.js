@@ -59,5 +59,43 @@ describe('Basic DOM Manipulation Part One', function () {
       expected = '<div id="A"><strong>Hi</strong></div>';
       expect(document.getElementById('A').outerHTML).toBe(expected);
     });
+
+    it('outerHTML can be used to replace an entire element and all of its content', function () {
+      let newHTML = '<div id="B" class="new">Whats Shaking</div>';
+      document.getElementById("B").outerHTML = newHTML;
+      let parentElement = document.createElement('div');
+      let newDiv = document.getElementById('B');
+      parentElement.appendChild(newDiv);
+      expect(parentElement.innerHTML).toBe(newHTML);
+    });
+
+    it('change textContent of an element', function () {
+      document.getElementById('C').textContent = 'dude';
+      expect(document.getElementById('C').firstChild.nodeValue).toBe('dude');
+    });
+
+    it('insertAdjacentHTML allows precise positioning of new HTML', function () {
+      let element = document.getElementById('elm');
+      element.insertAdjacentHTML('beforebegin', '<span>Hey-</span>');
+      element.insertAdjacentHTML('afterbegin', '<span>dude-</span>');
+      element.insertAdjacentHTML('beforeend', '<span>-are</span>');
+      element.insertAdjacentHTML('afterend', '<span>-you?</span>');
+      expected = '<span>Hey-</span><i id="elm"><span>dude-</span>how<span>-are</span></i><span>-you?</span>';
+      let previous = element.previousSibling;
+      let next = element.nextSibling;
+      results = previous.outerHTML + element.outerHTML + next.outerHTML;
+      expect(results).toBe(expected);
+    });
+
+    it('innerHTML as a getter returns a string', function () {
+      let element = document.getElementById('F');
+      expected = ['<i>Hi</i>', '<div id="F"><i>Hi</i></div>'];
+      results = [element.innerHTML, element.outerHTML];
+      expect(results).toEqual(expected);
+    });
+
+    it('textContent returns concatenation element text plus all child text', function () {
+      expect(document.getElementById('G').textContent).toBe('Dude !');
+    });
   });
 });
