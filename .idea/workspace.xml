@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOMEnlightenment/Chapter1NodeOverview/code/manipulation_part_one.html" beforeDir="false" afterPath="$PROJECT_DIR$/DOMEnlightenment/Chapter1NodeOverview/code/manipulation_part_one.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/SectionE6AsynchronousCode/files/read_file_async.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +35,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.6.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.0.26" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.7.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.0.27" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -53,7 +51,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
-  <component name="RunManager" selected="Jest.Section Two Differences Between Synchronous And Asynchronous Actions">
+  <component name="RunManager" selected="Jest.Section Three Callback Functions In Javascript">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -63,89 +61,90 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="F9 Streams" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Section Three Callback Functions In Javascript" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/UdemyLearnAndUnderstandNodeJS/SectionE6AsynchronousCode/test/streams.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionThreeCallBackFunctionsInJavascript/test/example.test.js" />
       <test-names>
-        <test-name value="F9 Streams" />
+        <test-name value="Section Three Callback Functions In Javascript" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Section Two Differences Between Synchronous And Asynchronous Actions" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionTwoDifferenceBetweenSynchronousAndAsynchronousActions/test/example.test.js" />
-      <test-names>
-        <test-name value="Section Two Differences Between Synchronous And Asynchronous Actions" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Section Two Differences Between Synchronous And Asynchronous Actions.asynchronous execution" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionTwoDifferenceBetweenSynchronousAndAsynchronousActions/test/example.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionThreeCallBackFunctionsInJavascript/test/example.test.js" />
       <test-names>
-        <test-name value="Section Two Differences Between Synchronous And Asynchronous Actions" />
-        <test-name value="asynchronous execution" />
+        <test-name value="Section Three Callback Functions In Javascript" />
+        <test-name value="Modify try/catch for asynchronous behavior" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Section Two Differences Between Synchronous And Asynchronous Actions.fix the asynchronous execution" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior, invoke normal behavior" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionTwoDifferenceBetweenSynchronousAndAsynchronousActions/test/example.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionThreeCallBackFunctionsInJavascript/test/example.test.js" />
       <test-names>
-        <test-name value="Section Two Differences Between Synchronous And Asynchronous Actions" />
-        <test-name value="fix the asynchronous execution" />
+        <test-name value="Section Three Callback Functions In Javascript" />
+        <test-name value="Modify try/catch for asynchronous behavior, invoke normal behavior" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Section Two Differences Between Synchronous And Asynchronous Actions.synchronous actions happen in order one after another" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior, invoke the error" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionTwoDifferenceBetweenSynchronousAndAsynchronousActions/test/example.test.js" />
+      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionThreeCallBackFunctionsInJavascript/test/example.test.js" />
       <test-names>
-        <test-name value="Section Two Differences Between Synchronous And Asynchronous Actions" />
-        <test-name value="synchronous actions happen in order one after another" />
+        <test-name value="Section Three Callback Functions In Javascript" />
+        <test-name value="Modify try/catch for asynchronous behavior, invoke the error" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Section Three Callback Functions In Javascript.Try/Catch does not work with callbacks" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/UdemyAsynchronousJavascriptPromisesCallbacksAsyncAwait/SectionThreeCallBackFunctionsInJavascript/test/example.test.js" />
+      <test-names>
+        <test-name value="Section Three Callback Functions In Javascript" />
+        <test-name value="Try/Catch does not work with callbacks" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.F9 Streams" />
-      <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions.synchronous actions happen in order one after another" />
-      <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions.asynchronous execution" />
-      <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions.fix the asynchronous execution" />
-      <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions" />
+      <item itemvalue="Jest.Section Three Callback Functions In Javascript" />
+      <item itemvalue="Jest.Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior" />
+      <item itemvalue="Jest.Section Three Callback Functions In Javascript.Try/Catch does not work with callbacks" />
+      <item itemvalue="Jest.Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior, invoke normal behavior" />
+      <item itemvalue="Jest.Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior, invoke the error" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions" />
-        <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions.fix the asynchronous execution" />
-        <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions.asynchronous execution" />
-        <item itemvalue="Jest.Section Two Differences Between Synchronous And Asynchronous Actions.synchronous actions happen in order one after another" />
-        <item itemvalue="Jest.F9 Streams" />
+        <item itemvalue="Jest.Section Three Callback Functions In Javascript" />
+        <item itemvalue="Jest.Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior, invoke the error" />
+        <item itemvalue="Jest.Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior, invoke normal behavior" />
+        <item itemvalue="Jest.Section Three Callback Functions In Javascript.Try/Catch does not work with callbacks" />
+        <item itemvalue="Jest.Section Three Callback Functions In Javascript.Modify try/catch for asynchronous behavior" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +220,10 @@
       <workItem from="1595441511989" duration="8946000" />
       <workItem from="1595524595732" duration="2740000" />
       <workItem from="1595892418346" duration="178000" />
-      <workItem from="1596537926677" duration="6315000" />
+      <workItem from="1596537926677" duration="6394000" />
+      <workItem from="1596560075211" duration="6889000" />
+      <workItem from="1596621614778" duration="2361000" />
+      <workItem from="1596629808141" duration="1692000" />
     </task>
     <servers />
   </component>
@@ -241,12 +243,12 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="516" y="260" key="#Usage_Scope/0.0.1440.900@0.0.1440.900" timestamp="1593908053162" />
-    <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596545037108">
-      <screen x="0" y="23" width="2560" height="1337" />
+    <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1596561203350">
+      <screen x="0" y="23" width="1440" height="826" />
     </state>
     <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1595533661408" />
     <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1596544954598" />
-    <state x="56" y="23" width="1328" height="826" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.826@0.23.1440.826" timestamp="1595460216806" />
+    <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.826@0.23.1440.826" timestamp="1596561203350" />
     <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.827@0.23.1440.827" timestamp="1595351950598" />
     <state x="56" y="0" width="1328" height="900" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.828@0.23.1440.828" timestamp="1595009782291" />
     <state x="100" y="0" width="2360" height="1440" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1596545037108" />
@@ -264,94 +266,94 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="498" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1595448815648" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1596551530532">
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom" timestamp="1596629968029">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595533661256" />
-    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1596551530532" />
+    <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596586364877" />
+    <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1596629968029" />
     <state width="1419" height="240" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1595002401186" />
     <state width="2539" height="419" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754421" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1596551530531">
+    <state width="2539" height="419" key="GridCell.Tab.0.center" timestamp="1596629968024">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1595533661255" />
-    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1596551530531" />
+    <state width="1419" height="240" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1596586364876" />
+    <state width="2539" height="419" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1596629968024" />
     <state width="1419" height="240" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1595002401186" />
     <state width="2539" height="419" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1596551530530">
+    <state width="2539" height="419" key="GridCell.Tab.0.left" timestamp="1596629968023">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1595533661254" />
-    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1596551530530" />
+    <state width="1419" height="240" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1596586364875" />
+    <state width="2539" height="419" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1596629968023" />
     <state width="1419" height="240" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1595002401185" />
     <state width="2539" height="419" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754419" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1596551530531">
+    <state width="2539" height="419" key="GridCell.Tab.0.right" timestamp="1596629968028">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1595533661256" />
-    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1596551530531" />
+    <state width="1419" height="240" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1596586364876" />
+    <state width="2539" height="419" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1596629968028" />
     <state width="1419" height="240" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1595002401186" />
     <state width="2539" height="419" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1588275754420" />
-    <state width="1419" height="298" key="GridCell.Tab.1.bottom" timestamp="1595461059249">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="2539" height="514" key="GridCell.Tab.1.bottom" timestamp="1596629787161">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595461059249" />
-    <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933331" />
-    <state width="1419" height="298" key="GridCell.Tab.1.center" timestamp="1595461059248">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596562409503" />
+    <state width="2539" height="514" key="GridCell.Tab.1.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787161" />
+    <state width="2539" height="514" key="GridCell.Tab.1.center" timestamp="1596629787161">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1595461059248" />
-    <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933330" />
-    <state width="1419" height="298" key="GridCell.Tab.1.left" timestamp="1595461059248">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1596562409502" />
+    <state width="2539" height="514" key="GridCell.Tab.1.center/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787161" />
+    <state width="2539" height="514" key="GridCell.Tab.1.left" timestamp="1596629787160">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1595461059248" />
-    <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933330" />
-    <state width="1419" height="298" key="GridCell.Tab.1.right" timestamp="1595461059249">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1596562409502" />
+    <state width="2539" height="514" key="GridCell.Tab.1.left/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787160" />
+    <state width="2539" height="514" key="GridCell.Tab.1.right" timestamp="1596629787161">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1595461059249" />
-    <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933330" />
-    <state width="1419" height="298" key="GridCell.Tab.2.bottom" timestamp="1595461059252">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1596562409503" />
+    <state width="2539" height="514" key="GridCell.Tab.1.right/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787161" />
+    <state width="2539" height="514" key="GridCell.Tab.2.bottom" timestamp="1596629787163">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595461059252" />
-    <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933332" />
-    <state width="1419" height="298" key="GridCell.Tab.2.center" timestamp="1595461059251">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.2.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596562409506" />
+    <state width="2539" height="514" key="GridCell.Tab.2.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787163" />
+    <state width="2539" height="514" key="GridCell.Tab.2.center" timestamp="1596629787162">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1595461059251" />
-    <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933332" />
-    <state width="1419" height="298" key="GridCell.Tab.2.left" timestamp="1595461059250">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.2.center/0.0.1440.900@0.0.1440.900" timestamp="1596562409504" />
+    <state width="2539" height="514" key="GridCell.Tab.2.center/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787162" />
+    <state width="2539" height="514" key="GridCell.Tab.2.left" timestamp="1596629787162">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1595461059250" />
-    <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933331" />
-    <state width="1419" height="298" key="GridCell.Tab.2.right" timestamp="1595461059251">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.2.left/0.0.1440.900@0.0.1440.900" timestamp="1596562409504" />
+    <state width="2539" height="514" key="GridCell.Tab.2.left/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787162" />
+    <state width="2539" height="514" key="GridCell.Tab.2.right" timestamp="1596629787163">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1595461059251" />
-    <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933332" />
-    <state width="1419" height="298" key="GridCell.Tab.3.bottom" timestamp="1595461059254">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1596562409505" />
+    <state width="2539" height="514" key="GridCell.Tab.2.right/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787163" />
+    <state width="2539" height="514" key="GridCell.Tab.3.bottom" timestamp="1596629787164">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1595461059254" />
-    <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933334" />
-    <state width="1419" height="298" key="GridCell.Tab.3.center" timestamp="1595461059253">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.3.bottom/0.0.1440.900@0.0.1440.900" timestamp="1596562409508" />
+    <state width="2539" height="514" key="GridCell.Tab.3.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787164" />
+    <state width="2539" height="514" key="GridCell.Tab.3.center" timestamp="1596629787164">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1595461059253" />
-    <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933333" />
-    <state width="1419" height="298" key="GridCell.Tab.3.left" timestamp="1595461059252">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.3.center/0.0.1440.900@0.0.1440.900" timestamp="1596562409507" />
+    <state width="2539" height="514" key="GridCell.Tab.3.center/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787164" />
+    <state width="2539" height="514" key="GridCell.Tab.3.left" timestamp="1596629787163">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1595461059252" />
-    <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933333" />
-    <state width="1419" height="298" key="GridCell.Tab.3.right" timestamp="1595461059253">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1419" height="298" key="GridCell.Tab.3.left/0.0.1440.900@0.0.1440.900" timestamp="1596562409506" />
+    <state width="2539" height="514" key="GridCell.Tab.3.left/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787163" />
+    <state width="2539" height="514" key="GridCell.Tab.3.right" timestamp="1596629787164">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1595461059253" />
-    <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1595425933333" />
+    <state width="1419" height="298" key="GridCell.Tab.3.right/0.0.1440.900@0.0.1440.900" timestamp="1596562409507" />
+    <state width="2539" height="514" key="GridCell.Tab.3.right/0.0.2560.1440@0.0.2560.1440" timestamp="1596629787164" />
     <state x="221" y="89" key="SettingsEditor" timestamp="1593908061729">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
