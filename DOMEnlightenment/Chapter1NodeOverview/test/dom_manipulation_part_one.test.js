@@ -97,5 +97,27 @@ describe('Basic DOM Manipulation Part One', function () {
     it('textContent returns concatenation element text plus all child text', function () {
       expect(document.getElementById('G').textContent).toBe('Dude !');
     });
+
+    it('do not use outerText it does not work consistently across environments', function () {
+      document.getElementById('E').outerText = 'Foo';
+      let elementE = document.getElementById('E');
+      expect(elementE.outerHTML).toBe('<div id="E"></div>');
+      // note in the Brave browser the above actions remove the div#E element, but in JSDOM it just
+      // adds another property to the element.  So bottom line, do not user outerText
+    });
+
+    it('innerText and textContent will render the same for non-hidden items', function () {
+      let e = document.getElementById('E');
+      let text = document.createTextNode('top level text');
+      e.appendChild(text);
+      let p = document.createElement('p');
+      text = document.createTextNode(' embedded text');
+      p.appendChild(text);
+      e.appendChild(p);
+      expected = ['top level text embedded text', undefined];
+      expect([e.textContent, e.innerText]).toEqual(expected);
+      // unfortunately, innerText is supported by browsers and it does not behave properly in JSDOM
+      // though textContent does behave properly
+    });
   });
 });

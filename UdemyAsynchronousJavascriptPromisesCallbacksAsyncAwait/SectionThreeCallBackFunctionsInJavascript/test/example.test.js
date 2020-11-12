@@ -1,6 +1,7 @@
 describe('Section Three Callback Functions In Javascript', function () {
   let calculateSquare;
   beforeEach(() => {
+    jest.useFakeTimers();
     calculateSquare = function(number, callback) {
       setTimeout(function() {
         if (typeof  number !== 'number') {
