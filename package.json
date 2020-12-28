@@ -27,5 +27,8 @@
     "babel-jest": "^25.4.0",
     "babel-polyfill": "^6.26.0",
     "jest": "^25.4.0"
+  },
+  "dependencies": {
+    "jsdom": "^15.2.1"
   }
 }
