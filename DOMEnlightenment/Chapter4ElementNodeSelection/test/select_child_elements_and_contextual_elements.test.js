@@ -11,6 +11,18 @@ describe('DOMEnlightenment Chapter Four Element Node Selection', function () {
     window = new JSDOM(htmlFile).window;
     document = window.document;
   });
+
+  describe('Most Common List Of Element Nodes', function () {
+    it('querySelectorAll, getElementsByTagName, getElementsByClassName', function () {
+      let liListOne = document.querySelectorAll('li');
+      let liListTwo = document.getElementsByTagName('li');
+      let liListThree = document.getElementsByClassName('liClass');
+      let sameList = (liListOne.length === liListTwo.length && liListOne.length === liListThree.length);
+
+      expect(sameList).toBe(true);
+    });
+  });
+
   describe('Immediate Child Elements', function () {
     it('should return an array like object of only element children', function () {
       let firstUL = document.querySelector('ul');
@@ -32,6 +44,34 @@ describe('DOMEnlightenment Chapter Four Element Node Selection', function () {
       ];
 
       expect(results).toEqual(expected);
+    });
+  });
+  
+  describe('Select Contextual Elements', function () {
+    let div;
+    beforeEach(() => {
+      div = document.querySelector('div');
+    });
+
+    it('querySelector and querySelectorAll can be called on elements', function () {
+      let firstUL = div.querySelector('ul');
+      let secondUL = div.querySelectorAll('ul');
+
+      expect(firstUL === secondUL[0]).toBe(true);
+    });
+
+    it('getElementsByTagName and getElementsByClassName can be called on elements', function () {
+      let firstLiList = div.getElementsByTagName('li');
+      let secondLiList = div.getElementsByClassName('liClass');
+
+      expect(firstLiList.length === secondLiList.length).toBe(true);
+    });
+  });
+
+  describe('Use Matches To Verify Equality', function () {
+    it('should use matches to verify the element is what you are looking for', function () {
+      let match = document.querySelector('ul:nth-of-type(2)').matches('#second');
+      expect(match).toBe(true);
     });
   });
 });
