@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/code/select_child_elements_and_contextual_elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/code/select_child_elements_and_contextual_elements.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +35,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.4.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.17" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -60,7 +58,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.DOMEnlightenment Chapter Four Element Node Selection.Use Matches To Verify Equality.should use matches to verify the element is what you are looking for">
+  <component name="RunManager" selected="Jest.getComputedStyle Method">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -70,94 +68,86 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="DOMEnlightenment Chapter Four Element Node Selection" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="cssText property use cases.cssText can be used to add and remove many different css properties at once" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/css_text_property.test.js" />
+      <test-names>
+        <test-name value="cssText property use cases" />
+        <test-name value="cssText can be used to add and remove many different css properties at once" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="cssText property use cases.setAttribute and getAttribute can be used to accomplish what cssText can do" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/css_text_property.test.js" />
+      <test-names>
+        <test-name value="cssText property use cases" />
+        <test-name value="setAttribute and getAttribute can be used to accomplish what cssText can do" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="getComputedStyle Method" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" />
+      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/get_computed_style.test.js" />
       <test-names>
-        <test-name value="DOMEnlightenment Chapter Four Element Node Selection" />
+        <test-name value="getComputedStyle Method" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="DOMEnlightenment Chapter Four Element Node Selection.Most Common List Of Element Nodes.querySelectorAll, getElementsByTagName, getElementsByClassName" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="getComputedStyle Method.adheres to the cascade" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" />
+      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/get_computed_style.test.js" />
       <test-names>
-        <test-name value="DOMEnlightenment Chapter Four Element Node Selection" />
-        <test-name value="Most Common List Of Element Nodes" />
-        <test-name value="querySelectorAll, getElementsByTagName, getElementsByClassName" />
+        <test-name value="getComputedStyle Method" />
+        <test-name value="adheres to the cascade" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="DOMEnlightenment Chapter Four Element Node Selection.Select Contextual Elements.getElementsByTagName and getElementsByClassName can be called on elements" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="style_attribute_getting_setting_removing.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" />
-      <test-names>
-        <test-name value="DOMEnlightenment Chapter Four Element Node Selection" />
-        <test-name value="Select Contextual Elements" />
-        <test-name value="getElementsByTagName and getElementsByClassName can be called on elements" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="DOMEnlightenment Chapter Four Element Node Selection.Select Contextual Elements.querySelector and querySelectorAll can be called on elements" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" />
-      <test-names>
-        <test-name value="DOMEnlightenment Chapter Four Element Node Selection" />
-        <test-name value="Select Contextual Elements" />
-        <test-name value="querySelector and querySelectorAll can be called on elements" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="DOMEnlightenment Chapter Four Element Node Selection.Use Matches To Verify Equality.should use matches to verify the element is what you are looking for" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/test/select_child_elements_and_contextual_elements.test.js" />
-      <test-names>
-        <test-name value="DOMEnlightenment Chapter Four Element Node Selection" />
-        <test-name value="Use Matches To Verify Equality" />
-        <test-name value="should use matches to verify the element is what you are looking for" />
-      </test-names>
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/style_attribute_getting_setting_removing.test.js" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection" />
-      <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Most Common List Of Element Nodes.querySelectorAll, getElementsByTagName, getElementsByClassName" />
-      <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Select Contextual Elements.querySelector and querySelectorAll can be called on elements" />
-      <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Select Contextual Elements.getElementsByTagName and getElementsByClassName can be called on elements" />
-      <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Use Matches To Verify Equality.should use matches to verify the element is what you are looking for" />
+      <item itemvalue="Jest.style_attribute_getting_setting_removing.test.js" />
+      <item itemvalue="Jest.cssText property use cases.cssText can be used to add and remove many different css properties at once" />
+      <item itemvalue="Jest.cssText property use cases.setAttribute and getAttribute can be used to accomplish what cssText can do" />
+      <item itemvalue="Jest.getComputedStyle Method.adheres to the cascade" />
+      <item itemvalue="Jest.getComputedStyle Method" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Use Matches To Verify Equality.should use matches to verify the element is what you are looking for" />
-        <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Select Contextual Elements.getElementsByTagName and getElementsByClassName can be called on elements" />
-        <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Select Contextual Elements.querySelector and querySelectorAll can be called on elements" />
-        <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection.Most Common List Of Element Nodes.querySelectorAll, getElementsByTagName, getElementsByClassName" />
-        <item itemvalue="Jest.DOMEnlightenment Chapter Four Element Node Selection" />
+        <item itemvalue="Jest.getComputedStyle Method" />
+        <item itemvalue="Jest.getComputedStyle Method.adheres to the cascade" />
+        <item itemvalue="Jest.cssText property use cases.setAttribute and getAttribute can be used to accomplish what cssText can do" />
+        <item itemvalue="Jest.cssText property use cases.cssText can be used to add and remove many different css properties at once" />
+        <item itemvalue="Jest.style_attribute_getting_setting_removing.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +255,12 @@
       <workItem from="1606311442216" duration="3067000" />
       <workItem from="1609187648838" duration="2765000" />
       <workItem from="1609366346987" duration="856000" />
-      <workItem from="1609367279809" duration="1179000" />
+      <workItem from="1609367279809" duration="1512000" />
+      <workItem from="1609888622525" duration="763000" />
+      <workItem from="1610818000843" duration="3155000" />
+      <workItem from="1611184776130" duration="439000" />
+      <workItem from="1611235455635" duration="3397000" />
+      <workItem from="1612385084341" duration="2860000" />
     </task>
     <servers />
   </component>
