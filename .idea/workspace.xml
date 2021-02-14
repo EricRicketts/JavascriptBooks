@@ -15,6 +15,7 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -35,8 +36,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.7.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.22" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.8.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.27" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -50,15 +51,17 @@
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1" />
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/code" />
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.getComputedStyle Method">
+  <component name="RunManager" selected="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -68,31 +71,45 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="cssText property use cases.cssText can be used to add and remove many different css properties at once" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Silent failures in Javascript.should fail silently (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/css_text_property.test.js" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines.test.js" />
       <test-names>
-        <test-name value="cssText property use cases" />
-        <test-name value="cssText can be used to add and remove many different css properties at once" />
+        <test-name value="Silent failures in Javascript" />
+        <test-name value="should fail silently" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="cssText property use cases.setAttribute and getAttribute can be used to accomplish what cssText can do" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Silent failures in Javascript.should fail silently" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/css_text_property.test.js" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines_test.js" />
       <test-names>
-        <test-name value="cssText property use cases" />
-        <test-name value="setAttribute and getAttribute can be used to accomplish what cssText can do" />
+        <test-name value="Silent failures in Javascript" />
+        <test-name value="should fail silently" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Silent failures in Javascript.storage still defined after errors in defineProperty method" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines.test.js" />
+      <test-names>
+        <test-name value="Silent failures in Javascript" />
+        <test-name value="storage still defined after errors in defineProperty method" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -123,31 +140,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="style_attribute_getting_setting_removing.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/style_attribute_getting_setting_removing.test.js" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.style_attribute_getting_setting_removing.test.js" />
-      <item itemvalue="Jest.cssText property use cases.cssText can be used to add and remove many different css properties at once" />
-      <item itemvalue="Jest.cssText property use cases.setAttribute and getAttribute can be used to accomplish what cssText can do" />
       <item itemvalue="Jest.getComputedStyle Method.adheres to the cascade" />
       <item itemvalue="Jest.getComputedStyle Method" />
+      <item itemvalue="Jest.Silent failures in Javascript.should fail silently" />
+      <item itemvalue="Jest.Silent failures in Javascript.should fail silently (1)" />
+      <item itemvalue="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method" />
+        <item itemvalue="Jest.Silent failures in Javascript.should fail silently (1)" />
+        <item itemvalue="Jest.Silent failures in Javascript.should fail silently" />
         <item itemvalue="Jest.getComputedStyle Method" />
         <item itemvalue="Jest.getComputedStyle Method.adheres to the cascade" />
-        <item itemvalue="Jest.cssText property use cases.setAttribute and getAttribute can be used to accomplish what cssText can do" />
-        <item itemvalue="Jest.cssText property use cases.cssText can be used to add and remove many different css properties at once" />
-        <item itemvalue="Jest.style_attribute_getting_setting_removing.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +267,9 @@
       <workItem from="1610818000843" duration="3155000" />
       <workItem from="1611184776130" duration="439000" />
       <workItem from="1611235455635" duration="3397000" />
-      <workItem from="1612385084341" duration="2860000" />
+      <workItem from="1612385084341" duration="3018000" />
+      <workItem from="1613316578813" duration="1346000" />
+      <workItem from="1613318071800" duration="1540000" />
     </task>
     <servers />
   </component>
