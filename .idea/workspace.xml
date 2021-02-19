@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,7 @@
       <list>
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="tsconfig.json" />
         <option value="JavaScript File" />
         <option value="TypeScript File" />
       </list>
@@ -50,8 +54,8 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -61,7 +65,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method">
+  <component name="RunManager" selected="Jest.Corrected behavior using TypeScript">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -69,6 +73,32 @@
       <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript" />
       <envs />
       <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Corrected behavior using TypeScript" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/test/red_underlines_corrected.test.js" />
+      <test-names>
+        <test-name value="Corrected behavior using TypeScript" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Silent failures in Javascript" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines.test.js" />
+      <test-names>
+        <test-name value="Silent failures in Javascript" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Silent failures in Javascript.should fail silently (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -113,48 +143,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="getComputedStyle Method" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/get_computed_style.test.js" />
-      <test-names>
-        <test-name value="getComputedStyle Method" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="getComputedStyle Method.adheres to the cascade" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter6ElementNodeInlineStyles/test/get_computed_style.test.js" />
-      <test-names>
-        <test-name value="getComputedStyle Method" />
-        <test-name value="adheres to the cascade" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.getComputedStyle Method.adheres to the cascade" />
-      <item itemvalue="Jest.getComputedStyle Method" />
       <item itemvalue="Jest.Silent failures in Javascript.should fail silently" />
       <item itemvalue="Jest.Silent failures in Javascript.should fail silently (1)" />
       <item itemvalue="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method" />
+      <item itemvalue="Jest.Corrected behavior using TypeScript" />
+      <item itemvalue="Jest.Silent failures in Javascript" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Corrected behavior using TypeScript" />
+        <item itemvalue="Jest.Silent failures in Javascript" />
         <item itemvalue="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method" />
         <item itemvalue="Jest.Silent failures in Javascript.should fail silently (1)" />
         <item itemvalue="Jest.Silent failures in Javascript.should fail silently" />
-        <item itemvalue="Jest.getComputedStyle Method" />
-        <item itemvalue="Jest.getComputedStyle Method.adheres to the cascade" />
       </list>
     </recent_temporary>
   </component>
@@ -270,10 +273,27 @@
       <workItem from="1612385084341" duration="3018000" />
       <workItem from="1613316578813" duration="1346000" />
       <workItem from="1613318071800" duration="1540000" />
+      <workItem from="1613341502033" duration="2340000" />
+      <workItem from="1613421624549" duration="2558000" />
+      <workItem from="1613428039739" duration="8000" />
+      <workItem from="1613686038388" duration="116000" />
+      <workItem from="1613734219344" duration="9349000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.js" />
+        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.js" />
+        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.js.map" />
+        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.js.map" />
+      </list>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

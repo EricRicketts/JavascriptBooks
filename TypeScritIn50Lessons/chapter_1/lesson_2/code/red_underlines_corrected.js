@@ -2,11 +2,9 @@
 const storage = {
     max: undefined,
     items: []
-}
+};
 Object.defineProperty(storage, 'max', { writable: false, value: 5000 });
-
 let currentStorage = undefined;
-
 function storageUsed() {
     if (currentStorage) {
         return currentStorage;
@@ -17,13 +15,11 @@ function storageUsed() {
     }
     return currentStorage;
 }
-
 function add(item) {
     if (storage.max - item.weight >= storageUsed()) {
         storage.items.push(item);
         currentStorage += item.weight;
     }
 }
-
 export { storage, currentStorage, storageUsed, add };
-
+//# sourceMappingURL=red_underlines_corrected.js.map
