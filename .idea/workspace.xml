@@ -274,7 +274,7 @@
       <workItem from="1613428039739" duration="8000" />
       <workItem from="1613686038388" duration="116000" />
       <workItem from="1613734219344" duration="9630000" />
-      <workItem from="1613935480738" duration="2470000" />
+      <workItem from="1613935480738" duration="3885000" />
     </task>
     <servers />
   </component>
@@ -286,6 +286,8 @@
         <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.js" />
         <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.js.map" />
         <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.js.map" />
+        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/code/example-two-run.js" />
+        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/code/example-two.js" />
       </list>
     </option>
   </component>
