@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +62,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Corrected behavior using TypeScript">
+  <component name="RunManager" selected="Jest.Run a TypeScript Function">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -75,16 +72,57 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Corrected behavior using TypeScript" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter 2 Tests" type="JavaScriptTestRunnerJest" temporary="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/test/red_underlines_corrected.test.js" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2" />
       <test-names>
         <test-name value="Corrected behavior using TypeScript" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run a TypeScript Function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/test/lesson_8.test.ts" />
+      <test-names>
+        <test-name value="Run a TypeScript Function" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run a TypeScript Function.should run the default" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/test/lesson_8.test.ts" />
+      <test-names>
+        <test-name value="Run a TypeScript Function" />
+        <test-name value="should run the default" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Run a TypeScript Function.should run with the second argument" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/test/lesson_8.test.ts" />
+      <test-names>
+        <test-name value="Run a TypeScript Function" />
+        <test-name value="should run with the second argument" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -101,63 +139,21 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Silent failures in Javascript.should fail silently (1)" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines.test.js" />
-      <test-names>
-        <test-name value="Silent failures in Javascript" />
-        <test-name value="should fail silently" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Silent failures in Javascript.should fail silently" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines_test.js" />
-      <test-names>
-        <test-name value="Silent failures in Javascript" />
-        <test-name value="should fail silently" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Silent failures in Javascript.storage still defined after errors in defineProperty method" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1/test/red_underlines.test.js" />
-      <test-names>
-        <test-name value="Silent failures in Javascript" />
-        <test-name value="storage still defined after errors in defineProperty method" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Silent failures in Javascript.should fail silently" />
-      <item itemvalue="Jest.Silent failures in Javascript.should fail silently (1)" />
-      <item itemvalue="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method" />
-      <item itemvalue="Jest.Corrected behavior using TypeScript" />
+      <item itemvalue="Jest.Chapter 2 Tests" />
       <item itemvalue="Jest.Silent failures in Javascript" />
+      <item itemvalue="Jest.Run a TypeScript Function.should run the default" />
+      <item itemvalue="Jest.Run a TypeScript Function.should run with the second argument" />
+      <item itemvalue="Jest.Run a TypeScript Function" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Corrected behavior using TypeScript" />
+        <item itemvalue="Jest.Run a TypeScript Function" />
+        <item itemvalue="Jest.Run a TypeScript Function.should run with the second argument" />
+        <item itemvalue="Jest.Run a TypeScript Function.should run the default" />
+        <item itemvalue="Jest.Chapter 2 Tests" />
         <item itemvalue="Jest.Silent failures in Javascript" />
-        <item itemvalue="Jest.Silent failures in Javascript.storage still defined after errors in defineProperty method" />
-        <item itemvalue="Jest.Silent failures in Javascript.should fail silently (1)" />
-        <item itemvalue="Jest.Silent failures in Javascript.should fail silently" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +273,8 @@
       <workItem from="1613421624549" duration="2558000" />
       <workItem from="1613428039739" duration="8000" />
       <workItem from="1613686038388" duration="116000" />
-      <workItem from="1613734219344" duration="9349000" />
+      <workItem from="1613734219344" duration="9630000" />
+      <workItem from="1613935480738" duration="2470000" />
     </task>
     <servers />
   </component>
