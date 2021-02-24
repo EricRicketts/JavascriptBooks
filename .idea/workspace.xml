@@ -4,6 +4,7 @@
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/@types/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/@types/types.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +17,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="tsconfig.json" />
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -63,7 +64,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Chapter 2 Lesson 12 Tests">
+  <component name="RunManager" selected="Jest.Chapter 2 Lesson 13 Tests">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -73,15 +74,34 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Chapter 2 Lesson 12 Tests" type="JavaScriptTestRunnerJest" temporary="true">
+    <configuration name="Chapter 2 Lesson 13 Tests" type="JavaScriptTestRunnerJest" temporary="true">
+      <config-file value="$PROJECT_DIR$/package.json" />
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <jest-options value="--watch" />
       <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_12/test/object_type_toolbelt.test.ts" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" />
+      <test-names>
+        <test-name value="Lesson 13" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" />
+      <test-names>
+        <test-name value="Lesson 13: Typing Classes" />
+        <test-name value="Basic class use" />
+        <test-name value="should run the discount class as expected" />
+      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="Run a TypeScript Function" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -94,20 +114,6 @@
       <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/test/lesson_8.test.ts" />
       <test-names>
         <test-name value="Run a TypeScript Function" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Run a TypeScript Function.should run with the second argument" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/test/lesson_8.test.ts" />
-      <test-names>
-        <test-name value="Run a TypeScript Function" />
-        <test-name value="should run with the second argument" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -140,19 +146,19 @@
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
-      <item itemvalue="Jest.Chapter 2 Lesson 12 Tests" />
-      <item itemvalue="Jest.Run a TypeScript Function.should run with the second argument" />
+      <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
       <item itemvalue="Jest.Run a TypeScript Function" />
       <item itemvalue="Jest.Testing Import Behavior.should handle value assignments properly" />
       <item itemvalue="Jest.Testing Import Behavior" />
+      <item itemvalue="Jest.Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.Chapter 2 Lesson 12 Tests" />
+        <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
+        <item itemvalue="Jest.Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" />
         <item itemvalue="Jest.Testing Import Behavior" />
         <item itemvalue="Jest.Testing Import Behavior.should handle value assignments properly" />
         <item itemvalue="Jest.Run a TypeScript Function" />
-        <item itemvalue="Jest.Run a TypeScript Function.should run with the second argument" />
       </list>
     </recent_temporary>
   </component>
@@ -275,6 +281,7 @@
       <workItem from="1613734219344" duration="9630000" />
       <workItem from="1613935480738" duration="9077000" />
       <workItem from="1614105945360" duration="4550000" />
+      <workItem from="1614193934079" duration="2194000" />
     </task>
     <servers />
   </component>

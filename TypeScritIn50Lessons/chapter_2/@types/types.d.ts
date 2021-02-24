@@ -32,3 +32,24 @@ export type DefaultOrder = {
   articles: Article[],
   customer: Customer
 }
+
+export class Discount {
+  isPercentage: boolean;
+  amount: number;
+
+  constructor(
+    isPercentage: boolean,
+    amount: number
+  ) {
+    this.isPercentage = isPercentage;
+    this.amount = amount;
+  }
+
+  apply(article: Article) {
+    if (this.isPercentage) {
+      article.price = article.price - (article.price - this.amount);
+    } else {
+      article.price = article.price - this.amount;
+    }
+  }
+}

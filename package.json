@@ -10,7 +10,8 @@
     "transform": {
       "^.+\\.jsx?$": "babel-jest",
       "^.+\\.(ts|tsx)$": "ts-jest"
-    }
+    },
+    "moduleFileExtensions": ["js", "json", "jsx", "ts", "d.ts", "tsx", "node"]
   },
   "repository": {
     "type": "git",
