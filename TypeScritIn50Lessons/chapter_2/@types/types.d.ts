@@ -1,4 +1,4 @@
-export type Article = {
+type Article = {
   title: string,
   price: number,
   vat: number,
@@ -6,7 +6,7 @@ export type Article = {
   description?: string
 }
 
-export type ShopItem = {
+type ShopItem = {
   title: string,
   price: number,
   vat: number,
@@ -15,41 +15,23 @@ export type ShopItem = {
   rating: number
 }
 
-export type Address = {
+type Address = {
   city: string,
   zip: string,
   street: string,
   number: string
 }
 
-export type Customer = {
+type Customer = {
   name: string,
   address: Address,
   dateOfBirth: date
 }
 
-export type DefaultOrder = {
+type DefaultOrder = {
   articles: Article[],
   customer: Customer
 }
 
-export class Discount {
-  isPercentage: boolean;
-  amount: number;
 
-  constructor(
-    isPercentage: boolean,
-    amount: number
-  ) {
-    this.isPercentage = isPercentage;
-    this.amount = amount;
-  }
-
-  apply(article: Article) {
-    if (this.isPercentage) {
-      article.price = article.price - (article.price - this.amount);
-    } else {
-      article.price = article.price - this.amount;
-    }
-  }
-}
+export { Article, ShopItem, Address, Customer, DefaultOrder };
