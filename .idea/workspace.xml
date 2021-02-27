@@ -4,7 +4,6 @@
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/@types/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/@types/types.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Chapter 2 Lesson 13 Tests">
+  <component name="RunManager" selected="Jest.Chapter 2 Lesson 14">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -84,6 +83,17 @@
       <envs />
       <scope-kind value="TEST_FILE" />
       <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Chapter 2 Lesson 14" type="JavaScriptTestRunnerJest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <jest-options value="--watch" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_14/test/interfaces.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -145,6 +155,7 @@
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Chapter 2 Lesson 14" />
       <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
       <item itemvalue="Jest.Testing Import Behavior.should handle value assignments properly" />
       <item itemvalue="Jest.Testing Import Behavior" />
@@ -282,7 +293,7 @@
       <workItem from="1614105945360" duration="4550000" />
       <workItem from="1614193934079" duration="2317000" />
       <workItem from="1614348836897" duration="2098000" />
-      <workItem from="1614358162174" duration="2962000" />
+      <workItem from="1614358162174" duration="5626000" />
     </task>
     <servers />
   </component>

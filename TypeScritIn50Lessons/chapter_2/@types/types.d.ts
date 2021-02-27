@@ -33,5 +33,4 @@ type DefaultOrder = {
   customer: Customer
 }
 
-
 export { Article, ShopItem, Address, Customer, DefaultOrder };
