@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/@types/types.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/@types/types.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Chapter 2 Lesson 14">
+  <component name="RunManager" selected="Jest.Using a declared function.should handle a second parameter">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -96,6 +95,16 @@
       <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_14/test/interfaces.test.ts" />
       <method v="2" />
     </configuration>
+    <configuration name="Chapter 3 Lesson 15" type="JavaScriptTestRunnerJest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <jest-options value="--watch" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
     <configuration name="Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -126,49 +135,51 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Testing Import Behavior" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_12/test/object_type_toolbelt.test.ts" />
-      <test-names>
-        <test-name value="Testing Import Behavior" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Testing Import Behavior.should handle value assignments properly" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Using a declared function.should handle a second parameter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_12/test/object_type_toolbelt.test.ts" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_3/lesson_15/test/lesson_15.test.ts" />
       <test-names>
-        <test-name value="Testing Import Behavior" />
-        <test-name value="should handle value assignments properly" />
+        <test-name value="Using a declared function" />
+        <test-name value="should handle a second parameter" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Using a declared function.should handle no second parameter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_3/lesson_15/test/lesson_15.test.ts" />
+      <test-names>
+        <test-name value="Using a declared function" />
+        <test-name value="should handle no second parameter" />
       </test-names>
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Chapter 3 Lesson 15" />
       <item itemvalue="Jest.Chapter 2 Lesson 14" />
       <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
-      <item itemvalue="Jest.Testing Import Behavior.should handle value assignments properly" />
-      <item itemvalue="Jest.Testing Import Behavior" />
       <item itemvalue="Jest.Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" />
       <item itemvalue="Jest.Lesson 13: Typing Classes.Structural Typing With Classes.should create regularly assigned objects to a variable of type Discount" />
+      <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
+      <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
+        <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
         <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
         <item itemvalue="Jest.Lesson 13: Typing Classes.Structural Typing With Classes.should create regularly assigned objects to a variable of type Discount" />
         <item itemvalue="Jest.Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" />
-        <item itemvalue="Jest.Testing Import Behavior" />
-        <item itemvalue="Jest.Testing Import Behavior.should handle value assignments properly" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +304,8 @@
       <workItem from="1614105945360" duration="4550000" />
       <workItem from="1614193934079" duration="2317000" />
       <workItem from="1614348836897" duration="2098000" />
-      <workItem from="1614358162174" duration="5626000" />
+      <workItem from="1614358162174" duration="8338000" />
+      <workItem from="1614629041692" duration="2445000" />
     </task>
     <servers />
   </component>
