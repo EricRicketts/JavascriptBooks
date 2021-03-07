@@ -45,8 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.9.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.31" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.11.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.32" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -59,18 +59,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test" />
       <recent name="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_1" />
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection/code" />
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Using a declared function.should handle a second parameter">
+  <component name="RunManager" selected="Jest.Chapter 3 Union And Intersection Types">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -113,34 +114,43 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter 3 Union And Intersection Types" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test/union_and_intersection_types.test.ts" />
       <test-names>
-        <test-name value="Lesson 13: Typing Classes" />
-        <test-name value="Basic class use" />
-        <test-name value="should run the discount class as expected" />
+        <test-name value="Chapter 3 Union And Intersection Types" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Lesson 13: Typing Classes.Structural Typing With Classes.should create regularly assigned objects to a variable of type Discount" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test/union_and_intersection_types.test.ts" />
       <test-names>
-        <test-name value="Lesson 13: Typing Classes" />
-        <test-name value="Structural Typing With Classes" />
-        <test-name value="should create regularly assigned objects to a variable of type Discount" />
+        <test-name value="Chapter 3 Union And Intersection Types" />
+        <test-name value="Working With Value Types" />
+        <test-name value="should understand the type of the object" />
       </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="Chapter 4 Lesson 22" type="JavaScriptTestRunnerJest">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <jest-options value="--watch" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test/union_and_intersection_types.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="Using a declared function.should handle a second parameter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
@@ -175,19 +185,20 @@
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Chapter 3 Lesson 15" />
       <item itemvalue="Jest.Chapter 2 Lesson 14" />
+      <item itemvalue="Jest.Chapter 4 Lesson 22" />
       <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
-      <item itemvalue="Jest.Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" />
-      <item itemvalue="Jest.Lesson 13: Typing Classes.Structural Typing With Classes.should create regularly assigned objects to a variable of type Discount" />
       <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
       <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
+      <item itemvalue="Jest.Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" />
+      <item itemvalue="Jest.Chapter 3 Union And Intersection Types" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.Chapter 3 Union And Intersection Types" />
+        <item itemvalue="Jest.Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" />
         <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
         <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
         <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
-        <item itemvalue="Jest.Lesson 13: Typing Classes.Structural Typing With Classes.should create regularly assigned objects to a variable of type Discount" />
-        <item itemvalue="Jest.Lesson 13: Typing Classes.Basic class use.should run the discount class as expected" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +325,9 @@
       <workItem from="1614348836897" duration="2098000" />
       <workItem from="1614358162174" duration="8338000" />
       <workItem from="1614629041692" duration="2445000" />
-      <workItem from="1615037236780" duration="10000000" />
+      <workItem from="1615037236780" duration="10345000" />
+      <workItem from="1615142045735" duration="5052000" />
+      <workItem from="1615154305074" duration="2040000" />
     </task>
     <servers />
   </component>
