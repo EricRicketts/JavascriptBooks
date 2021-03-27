@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +331,9 @@
       <workItem from="1615154305074" duration="2040000" />
       <workItem from="1615243615158" duration="362000" />
       <workItem from="1615639638828" duration="3589000" />
-      <workItem from="1616004318716" duration="2952000" />
+      <workItem from="1616004318716" duration="7285000" />
+      <workItem from="1616165553718" duration="64099000" />
+      <workItem from="1616763784241" duration="6681000" />
     </task>
     <servers />
   </component>
