@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +45,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.11.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.32" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.14.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.41" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -72,7 +71,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.Chapter 3 Union And Intersection Types">
+  <component name="RunManager" selected="Jest.basic_node_overview.test.js">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -80,18 +79,6 @@
       <working-dir value="$PROJECT_DIR$/PrinciplesOfObjectOrientedJavascript" />
       <envs />
       <scope-kind value="ALL" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Chapter 2 Lesson 13 Tests" type="JavaScriptTestRunnerJest" temporary="true">
-      <config-file value="$PROJECT_DIR$/package.json" />
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <jest-options value="--watch" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_13/test/typing_classes.test.ts" />
       <method v="2" />
     </configuration>
     <configuration name="Chapter 2 Lesson 14" type="JavaScriptTestRunnerJest">
@@ -182,24 +169,34 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="basic_node_overview.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter1NodeOverview/test/basic_node_overview.test.js" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Jest.All Tests" />
       <item itemvalue="Jest.Chapter 3 Lesson 15" />
       <item itemvalue="Jest.Chapter 2 Lesson 14" />
       <item itemvalue="Jest.Chapter 4 Lesson 22" />
-      <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
       <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
       <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
       <item itemvalue="Jest.Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" />
       <item itemvalue="Jest.Chapter 3 Union And Intersection Types" />
+      <item itemvalue="Jest.basic_node_overview.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.basic_node_overview.test.js" />
         <item itemvalue="Jest.Chapter 3 Union And Intersection Types" />
         <item itemvalue="Jest.Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" />
         <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
         <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
-        <item itemvalue="Jest.Chapter 2 Lesson 13 Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +330,9 @@
       <workItem from="1615639638828" duration="3589000" />
       <workItem from="1616004318716" duration="7285000" />
       <workItem from="1616165553718" duration="64099000" />
-      <workItem from="1616763784241" duration="6681000" />
+      <workItem from="1616763784241" duration="6869000" />
+      <workItem from="1618922570215" duration="228000" />
+      <workItem from="1619555295838" duration="873000" />
     </task>
     <servers />
   </component>
