@@ -1,0 +1,32 @@
+# Changelog “JavaScript for impatient programmers”
+
+## ES2021 edition
+
+### 2021-02-02 First release of ES2021 edition
+
+* The exercises now run as native ESM modules on Node.js. Previously, they were run via the `esm` package.
+* Material on new ES2021 features:
+  * `String.prototype.replaceAll()`
+  * `Promise.any()`
+  * Logical assignment operators
+  * Underscores (`_`) as separators in number literals and bigint literals
+* New chapter: “New JavaScript features” lists what’s new in each release after ES6.
+* Describing some features in more detail:
+  * ES2019: New section on optional `catch` binding
+  * ES2019: New section on `Symbol.prototype.description`
+  * ES2018: New section on the template literal revision
+  * ES2018: New section on `Promise.prototype.finally()`
+  * ES2017: New section on trailing commas in function parameter lists and calls
+* Rewrite of chapter “Callable values”:
+  * Moved content on dynamic code evaluation into its own chapter.
+  * Improved coverage of `this`
+  * And more
+* Rewrite of chapter “Single objects”:
+  * Improved coverage of `this`
+  * Explaining the function methods `.call()`, `.apply()`, `.bind()`
+* Chapter on symbols:
+  * Mostly new section “Symbols are primitives that are also like objects”
+  * New section “The descriptions of symbols”
+  * Major rewrite of section “Symbols as unique property keys”
+* Chapter on regular expressions:
+  * Much improved section “The flags `/g` and `/y`, and the property `.lastIndex`”

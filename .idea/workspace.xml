@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c64678-a901-43e7-8179-05ebfaf1d31c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouDontKnowJavascript/async_and_performance/test/first_promise_example.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouDontKnowJavascript/scopes_and_closures/code/modern_modules.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +18,8 @@
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -45,8 +48,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.14.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.41" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="15.6.1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -58,6 +61,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/JavasriptForImpatientProgrammers/impatient-js-code-2021-02-05/node_modules/mocha" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
@@ -71,7 +75,7 @@
       <recent name="$PROJECT_DIR$/DOMEnlightenment/Chapter4ElementNodeSelection" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.basic_node_overview.test.js">
+  <component name="RunManager" selected="Mocha.MochaLetAndConst">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -102,34 +106,6 @@
       <scope-kind value="ALL" />
       <method v="2" />
     </configuration>
-    <configuration name="Chapter 3 Union And Intersection Types" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test/union_and_intersection_types.test.ts" />
-      <test-names>
-        <test-name value="Chapter 3 Union And Intersection Types" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test/union_and_intersection_types.test.ts" />
-      <test-names>
-        <test-name value="Chapter 3 Union And Intersection Types" />
-        <test-name value="Working With Value Types" />
-        <test-name value="should understand the type of the object" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="Chapter 4 Lesson 22" type="JavaScriptTestRunnerJest">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -141,42 +117,59 @@
       <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_4/lesson_22/test/union_and_intersection_types.test.ts" />
       <method v="2" />
     </configuration>
-    <configuration name="Using a declared function.should handle a second parameter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="MDN Promises Documentation.Chained Promises" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/ExploringES6/MDNTopics/Promises/test/mdn_promises.test.js" />
+      <test-names>
+        <test-name value="MDN Promises Documentation" />
+        <test-name value="Chained Promises" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="MDN Promises Documentation.Chained Promises.should be able to test the end result of a chained promise" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_3/lesson_15/test/lesson_15.test.ts" />
+      <test-file value="$PROJECT_DIR$/ExploringES6/MDNTopics/Promises/test/mdn_promises.test.js" />
       <test-names>
-        <test-name value="Using a declared function" />
-        <test-name value="should handle a second parameter" />
+        <test-name value="MDN Promises Documentation" />
+        <test-name value="Chained Promises" />
+        <test-name value="should be able to test the end result of a chained promise" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="Using a declared function.should handle no second parameter" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="My test" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
+      <working-dir value="$PROJECT_DIR$/JavasriptForImpatientProgrammers/impatient-js-code-2021-02-05" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_3/lesson_15/test/lesson_15.test.ts" />
+      <test-file value="$PROJECT_DIR$/JavasriptForImpatientProgrammers/impatient-js-code-2021-02-05/demos/quizzes-exercises/id_test.mjs" />
       <test-names>
-        <test-name value="Using a declared function" />
-        <test-name value="should handle no second parameter" />
+        <test-name value="My test" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="basic_node_overview.test.js" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST_FILE" />
-      <test-file value="$PROJECT_DIR$/DOMEnlightenment/Chapter1NodeOverview/test/basic_node_overview.test.js" />
+    <configuration name="MochaLetAndConst" type="mocha-javascript-test-runner" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/JavasriptForImpatientProgrammers/impatient-js-code-2021-02-05/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/JavasriptForImpatientProgrammers/impatient-js-code-2021-02-05/exercises</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options>--watch</extra-mocha-options>
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory>$PROJECT_DIR$/JavasriptForImpatientProgrammers/impatient-js-code-2021-02-05/exercises/variables-assignment/extra-tests</test-directory>
+      <recursive>true</recursive>
       <method v="2" />
     </configuration>
     <list>
@@ -184,19 +177,17 @@
       <item itemvalue="Jest.Chapter 3 Lesson 15" />
       <item itemvalue="Jest.Chapter 2 Lesson 14" />
       <item itemvalue="Jest.Chapter 4 Lesson 22" />
-      <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
-      <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
-      <item itemvalue="Jest.Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" />
-      <item itemvalue="Jest.Chapter 3 Union And Intersection Types" />
-      <item itemvalue="Jest.basic_node_overview.test.js" />
+      <item itemvalue="Jest.MDN Promises Documentation.Chained Promises.should be able to test the end result of a chained promise" />
+      <item itemvalue="Jest.MDN Promises Documentation.Chained Promises" />
+      <item itemvalue="Jest.My test" />
+      <item itemvalue="Mocha.MochaLetAndConst" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.basic_node_overview.test.js" />
-        <item itemvalue="Jest.Chapter 3 Union And Intersection Types" />
-        <item itemvalue="Jest.Chapter 3 Union And Intersection Types.Working With Value Types.should understand the type of the object" />
-        <item itemvalue="Jest.Using a declared function.should handle a second parameter" />
-        <item itemvalue="Jest.Using a declared function.should handle no second parameter" />
+        <item itemvalue="Mocha.MochaLetAndConst" />
+        <item itemvalue="Jest.My test" />
+        <item itemvalue="Jest.MDN Promises Documentation.Chained Promises.should be able to test the end result of a chained promise" />
+        <item itemvalue="Jest.MDN Promises Documentation.Chained Promises" />
       </list>
     </recent_temporary>
   </component>
@@ -333,22 +324,21 @@
       <workItem from="1616763784241" duration="6869000" />
       <workItem from="1618922570215" duration="228000" />
       <workItem from="1619555295838" duration="873000" />
+      <workItem from="1621886929585" duration="1504000" />
+      <workItem from="1621973070323" duration="121000" />
+      <workItem from="1621986798258" duration="224000" />
+      <workItem from="1621996268690" duration="99000" />
+      <workItem from="1622057138090" duration="2044000" />
+      <workItem from="1622064160322" duration="2990000" />
+      <workItem from="1622109942420" duration="8638000" />
+      <workItem from="1622835751821" duration="258000" />
+      <workItem from="1623695743060" duration="5120000" />
+      <workItem from="1623784975396" duration="4948000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.js" />
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.js" />
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines.js.map" />
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_1/lesson_2/code/red_underlines_corrected.js.map" />
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/code/example-two-run.js" />
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_2/lesson_8/code/example-two.js" />
-        <option value="$PROJECT_DIR$/TypeScritIn50Lessons/chapter_3/lesson_21/code/generator_functions.js" />
-      </list>
-    </option>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
